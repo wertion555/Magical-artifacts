@@ -1,0 +1,7 @@
+{
+  "parent": "magical_artifacts:custom/magic_wand",
+  "textures": {
+    "0": "magical_artifacts:block/magic_wand",
+    "particle": "magical_artifacts:item/img"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "mod_elements": [
+    {
+      "name": "MagicalArtifacts",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magical_artifacts",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "MagicWandUse",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_wand_use",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalartifacts/procedures/MagicWandUseProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "MagicWand",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_wand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magical_artifacts/models/item/magic_wand.json",
+          "src/main/java/net/mcreator/magicalartifacts/item/MagicWandItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {
+      "item_group.magical_artifacts.magical_artifacts": "Magical Artifacts",
+      "item.magical_artifacts.magic_wand": "Magic Wand"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "magical_artifacts",
+    "modName": "magical_artifacts",
+    "version": "1.0.0",
+    "author": "ryzhenko.na, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.magicalartifacts"
+  },
+  "mcreatorVersion": 202400118518
+}
