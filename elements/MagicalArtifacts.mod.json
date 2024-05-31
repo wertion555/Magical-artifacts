@@ -4,7 +4,7 @@
   "definition": {
     "name": "Magical Artifacts",
     "icon": {
-      "value": "Blocks.AIR"
+      "value": "CUSTOM:MagicWand"
     },
     "showSearch": false
   }

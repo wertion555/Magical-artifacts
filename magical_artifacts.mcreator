@@ -38,6 +38,48 @@
           "src/main/java/net/mcreator/magicalartifacts/item/MagicWandItem.java"
         ]
       }
+    },
+    {
+      "name": "SpellShotEntity",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_shot_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalartifacts/procedures/SpellShotEntityProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "SpellShotBlock",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_shot_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalartifacts/procedures/SpellShotBlockProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Spell",
+      "type": "projectile",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalartifacts/client/renderer/SpellRenderer.java",
+          "src/main/java/net/mcreator/magicalartifacts/entity/SpellEntity.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -49,8 +91,8 @@
       "item.magical_artifacts.magic_wand": "волшебная палочка"
     },
     "en_us": {
-      "item_group.magical_artifacts.magical_artifacts": "Magical artifacts",
-      "item.magical_artifacts.magic_wand": "magic wand"
+      "item_group.magical_artifacts.magical_artifacts": "Magical Artifacts",
+      "item.magical_artifacts.magic_wand": "Magic Wand"
     }
   },
   "foldersRoot": {

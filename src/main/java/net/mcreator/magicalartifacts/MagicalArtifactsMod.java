@@ -19,6 +19,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.magicalartifacts.init.MagicalArtifactsModTabs;
 import net.mcreator.magicalartifacts.init.MagicalArtifactsModItems;
+import net.mcreator.magicalartifacts.init.MagicalArtifactsModEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -41,6 +42,7 @@ public class MagicalArtifactsMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		MagicalArtifactsModItems.REGISTRY.register(bus);
+		MagicalArtifactsModEntities.REGISTRY.register(bus);
 
 		MagicalArtifactsModTabs.REGISTRY.register(bus);
 
