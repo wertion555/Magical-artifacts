@@ -21,4 +21,16 @@ authors="ryzhenko.na, MCreator"
     side="BOTH"
 
 
+[[dependencies.magical_artifacts]]
+    modId="curios_api"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.magical_artifacts]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 

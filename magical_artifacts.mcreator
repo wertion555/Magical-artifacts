@@ -44,9 +44,13 @@
   "sound_elements": [],
   "tag_elements": {},
   "language_map": {
+    "ru_ru": {
+      "item_group.magical_artifacts.magical_artifacts": "Magical artifacts",
+      "item.magical_artifacts.magic_wand": "волшебная палочка"
+    },
     "en_us": {
-      "item_group.magical_artifacts.magical_artifacts": "Magical Artifacts",
-      "item.magical_artifacts.magic_wand": "Magic Wand"
+      "item_group.magical_artifacts.magical_artifacts": "Magical artifacts",
+      "item.magical_artifacts.magic_wand": "magic wand"
     }
   },
   "foldersRoot": {
@@ -64,8 +68,12 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "curios_api",
+      "geckolib"
+    ],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.magicalartifacts"
   },
   "mcreatorVersion": 202400118518
