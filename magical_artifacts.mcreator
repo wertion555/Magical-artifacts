@@ -30,6 +30,22 @@
           {
             "name": "itemstack",
             "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -111,8 +127,8 @@
   "workspaceSettings": {
     "modid": "magical_artifacts",
     "modName": "magical_artifacts",
-    "version": "1.0.0",
-    "author": "ryzhenko.na, MCreator",
+    "version": "1beta",
+    "author": "arrowplay, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Not specified",
     "serverSideOnly": false,
@@ -121,7 +137,6 @@
     "dependants": [],
     "mcreatorDependencies": [
       "curios_api",
-      "mcreator_link",
       "geckolib",
       "playeranimator",
       "particlepresets",

@@ -4,11 +4,11 @@ license="Not specified"
 
 [[mods]]
 modId="magical_artifacts"
-version="1.0.0"
+version="1"
 displayName="magical_artifacts"
 displayURL="https://mcreator.net"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="ryzhenko.na, MCreator"
+authors="arrowplay, MCreator"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration
@@ -20,12 +20,6 @@ authors="ryzhenko.na, MCreator"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.magical_artifacts]]
-    modId="mcreator_link"
-    mandatory=true
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
 
 [[dependencies.magical_artifacts]]
     modId="curios_api"

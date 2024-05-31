@@ -25,7 +25,7 @@ public class MagicWandItem extends Item {
 	@Override
 	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
 		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
-		MagicWandUseProcedure.execute(entity, ar.getObject());
+		MagicWandUseProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity, ar.getObject());
 		return ar;
 	}
 }
