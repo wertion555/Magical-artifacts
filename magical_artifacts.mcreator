@@ -22,7 +22,16 @@
         "files": [
           "src/main/java/net/mcreator/magicalartifacts/procedures/MagicWandUseProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
       }
     },
     {

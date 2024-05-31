@@ -3,7 +3,6 @@ package net.mcreator.magicalartifacts.item;
 
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
@@ -19,16 +18,6 @@ public class MagicWandItem extends Item {
 	}
 
 	@Override
-	public UseAnim getUseAnimation(ItemStack itemstack) {
-		return UseAnim.CROSSBOW;
-	}
-
-	@Override
-	public int getUseDuration(ItemStack itemstack) {
-		return 7;
-	}
-
-	@Override
 	public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 		return 2f;
 	}
@@ -36,7 +25,7 @@ public class MagicWandItem extends Item {
 	@Override
 	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
 		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
-		MagicWandUseProcedure.execute();
+		MagicWandUseProcedure.execute(entity, ar.getObject());
 		return ar;
 	}
 }
