@@ -20,6 +20,12 @@ authors="ryzhenko.na, MCreator"
     ordering="NONE"
     side="BOTH"
 
+[[dependencies.magical_artifacts]]
+    modId="mcreator_link"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 [[dependencies.magical_artifacts]]
     modId="curios_api"
@@ -29,6 +35,24 @@ authors="ryzhenko.na, MCreator"
     side="BOTH"
 [[dependencies.magical_artifacts]]
     modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.magical_artifacts]]
+    modId="playeranimator"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.magical_artifacts]]
+    modId="particlepresets"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.magical_artifacts]]
+    modId="jei"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"
