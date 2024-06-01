@@ -65,51 +65,6 @@
       }
     },
     {
-      "name": "SpellShotEntity",
-      "type": "procedure",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "spell_shot_entity",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/magicalartifacts/procedures/SpellShotEntityProcedure.java"
-        ],
-        "dependencies": []
-      },
-      "path": "~/Spells"
-    },
-    {
-      "name": "SpellShotBlock",
-      "type": "procedure",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "spell_shot_block",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/magicalartifacts/procedures/SpellShotBlockProcedure.java"
-        ],
-        "dependencies": []
-      },
-      "path": "~/Spells"
-    },
-    {
-      "name": "Spell",
-      "type": "projectile",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "spell",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/magicalartifacts/client/renderer/SpellRenderer.java",
-          "src/main/java/net/mcreator/magicalartifacts/entity/SpellEntity.java"
-        ]
-      },
-      "path": "~/Spells"
-    },
-    {
       "name": "SpellBombardoShotBlock",
       "type": "procedure",
       "sortid": 7,

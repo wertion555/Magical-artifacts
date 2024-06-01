@@ -22,7 +22,7 @@
       "name": "SpellBombardoShotEntity"
     },
     "onHitsEntity": {
-      "name": "SpellShotEntity"
+      "name": "SpellBombardoShotEntity"
     },
     "onFlyingTick": {
       "name": "SpellBombardoTick"

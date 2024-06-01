@@ -16,15 +16,12 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
-import net.mcreator.magicalartifacts.entity.SpellEntity;
 import net.mcreator.magicalartifacts.entity.SpellBomdardoEntity;
 import net.mcreator.magicalartifacts.MagicalArtifactsMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class MagicalArtifactsModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, MagicalArtifactsMod.MODID);
-	public static final RegistryObject<EntityType<SpellEntity>> SPELL = register("spell",
-			EntityType.Builder.<SpellEntity>of(SpellEntity::new, MobCategory.MISC).setCustomClientFactory(SpellEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<SpellBomdardoEntity>> SPELL_BOMDARDO = register("spell_bomdardo",
 			EntityType.Builder.<SpellBomdardoEntity>of(SpellBomdardoEntity::new, MobCategory.MISC).setCustomClientFactory(SpellBomdardoEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 

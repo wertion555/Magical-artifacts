@@ -20,7 +20,6 @@ import net.minecraft.util.RandomSource;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 
-import net.mcreator.magicalartifacts.procedures.SpellShotEntityProcedure;
 import net.mcreator.magicalartifacts.procedures.SpellBombardoTickProcedure;
 import net.mcreator.magicalartifacts.procedures.SpellBombardoShotEntityProcedure;
 import net.mcreator.magicalartifacts.procedures.SpellBombardoShotBlockProcedure;
@@ -77,7 +76,7 @@ public class SpellBomdardoEntity extends AbstractArrow implements ItemSupplier {
 	@Override
 	public void onHitEntity(EntityHitResult entityHitResult) {
 		super.onHitEntity(entityHitResult);
-		SpellShotEntityProcedure.execute();
+		SpellBombardoShotEntityProcedure.execute();
 	}
 
 	@Override
