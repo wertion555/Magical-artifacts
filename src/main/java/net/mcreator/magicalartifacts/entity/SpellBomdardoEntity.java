@@ -82,13 +82,13 @@ public class SpellBomdardoEntity extends AbstractArrow implements ItemSupplier {
 	@Override
 	public void onHitBlock(BlockHitResult blockHitResult) {
 		super.onHitBlock(blockHitResult);
-		SpellBombardoShotBlockProcedure.execute();
+		SpellBombardoShotBlockProcedure.execute(this.level(), blockHitResult.getBlockPos().getX(), blockHitResult.getBlockPos().getY(), blockHitResult.getBlockPos().getZ());
 	}
 
 	@Override
 	public void tick() {
 		super.tick();
-		SpellBombardoTickProcedure.execute();
+		SpellBombardoTickProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
 		if (this.inGround)
 			this.discard();
 	}
