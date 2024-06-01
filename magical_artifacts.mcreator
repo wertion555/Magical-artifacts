@@ -150,6 +150,7 @@
     {
       "name": "MagicalGems",
       "type": "item",
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magical_gems",
@@ -159,11 +160,12 @@
           "src/main/java/net/mcreator/magicalartifacts/item/MagicalGemsItem.java"
         ]
       },
-      "path": "~/Ores/Magica Ore"
+      "path": "~/Ores/Magical Ore"
     },
     {
       "name": "MagicalGemsOre",
       "type": "block",
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magical_gems_ore",
@@ -179,11 +181,12 @@
           "src/main/resources/assets/magical_artifacts/models/block/magical_gems_ore.json"
         ]
       },
-      "path": "~/Ores/Magica Ore"
+      "path": "~/Ores/Magical Ore"
     },
     {
       "name": "MagicalGemsBlock",
       "type": "block",
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magical_gems_block",
@@ -196,11 +199,12 @@
           "src/main/resources/assets/magical_artifacts/models/item/magical_gems_block.json"
         ]
       },
-      "path": "~/Ores/Magica Ore"
+      "path": "~/Ores/Magical Ore"
     },
     {
       "name": "MagicalGemsOreBlockRecipe",
       "type": "recipe",
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magical_gems_ore_block_recipe",
@@ -209,11 +213,12 @@
           "src/main/resources/data/magical_artifacts/recipes/magical_gems_ore_block_recipe.json"
         ]
       },
-      "path": "~/Ores/Magica Ore"
+      "path": "~/Ores/Magical Ore"
     },
     {
       "name": "MagicalGemsBlockOreRecipe",
       "type": "recipe",
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magical_gems_block_ore_recipe",
@@ -222,11 +227,12 @@
           "src/main/resources/data/magical_artifacts/recipes/magical_gems_block_ore_recipe.json"
         ]
       },
-      "path": "~/Ores/Magica Ore"
+      "path": "~/Ores/Magical Ore"
     },
     {
       "name": "MagicalGemsOreSmelting",
       "type": "recipe",
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magical_gems_ore_smelting",
@@ -235,7 +241,7 @@
           "src/main/resources/data/magical_artifacts/recipes/magical_gems_ore_smelting.json"
         ]
       },
-      "path": "~/Ores/Magica Ore"
+      "path": "~/Ores/Magical Ore"
     }
   ],
   "variable_elements": [],
@@ -282,7 +288,7 @@
         "name": "Ores",
         "children": [
           {
-            "name": "Magica Ore",
+            "name": "Magical Ore",
             "children": []
           }
         ]
