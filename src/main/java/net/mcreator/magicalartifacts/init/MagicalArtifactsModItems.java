@@ -22,8 +22,6 @@ public class MagicalArtifactsModItems {
 	public static final RegistryObject<Item> DUNETITE = REGISTRY.register("dunetite", () -> new DunetiteItem());
 	public static final RegistryObject<Item> DUNETITE_ORE = block(MagicalArtifactsModBlocks.DUNETITE_ORE);
 	public static final RegistryObject<Item> DUNETITE_BLOCK = block(MagicalArtifactsModBlocks.DUNETITE_BLOCK);
-	public static final RegistryObject<Item> NOT_RIPE_ANUPHOOM = block(MagicalArtifactsModBlocks.NOT_RIPE_ANUPHOOM);
-	public static final RegistryObject<Item> ANUPHOOM = block(MagicalArtifactsModBlocks.ANUPHOOM);
 
 	// Start of user code block custom items
 	// End of user code block custom items

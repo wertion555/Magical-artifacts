@@ -1,8 +1,6 @@
 {
   "subtitles.anumhoom.destroy": "anumhoom destroy",
   "subtitles.anumhoom.place": "anumhoom place",
-  "block.magical_artifacts.not_ripe_anuphoom": "anuphoom",
-  "block.magical_artifacts.anuphoom": "Anuphoom",
   "subtitles.anumhoom.step": "anumhoom step",
   "item_group.magical_artifacts.magical_artifacts": "Magical artifacts",
   "block.magical_artifacts.dunetite_ore": "дунетитовая руда",

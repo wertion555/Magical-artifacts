@@ -22,8 +22,6 @@ public class MagicalArtifactsModTabs {
 				tabData.accept(MagicalArtifactsModItems.DUNETITE.get());
 				tabData.accept(MagicalArtifactsModBlocks.DUNETITE_ORE.get().asItem());
 				tabData.accept(MagicalArtifactsModBlocks.DUNETITE_BLOCK.get().asItem());
-				tabData.accept(MagicalArtifactsModBlocks.NOT_RIPE_ANUPHOOM.get().asItem());
-				tabData.accept(MagicalArtifactsModBlocks.ANUPHOOM.get().asItem());
 			})
 
 					.build());
