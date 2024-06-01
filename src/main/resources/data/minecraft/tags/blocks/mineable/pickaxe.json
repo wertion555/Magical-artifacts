@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "magical_artifacts:magical_gems_block",
-    "magical_artifacts:magical_gems_ore"
+    "magical_artifacts:dunetite_block",
+    "magical_artifacts:dunetite_ore"
   ]
 }

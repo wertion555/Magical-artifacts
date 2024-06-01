@@ -12,16 +12,17 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
-import net.mcreator.magicalartifacts.item.MagicalGemsItem;
 import net.mcreator.magicalartifacts.item.MagicWandItem;
+import net.mcreator.magicalartifacts.item.DunetiteItem;
 import net.mcreator.magicalartifacts.MagicalArtifactsMod;
 
 public class MagicalArtifactsModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, MagicalArtifactsMod.MODID);
 	public static final RegistryObject<Item> MAGIC_WAND = REGISTRY.register("magic_wand", () -> new MagicWandItem());
-	public static final RegistryObject<Item> MAGICAL_GEMS = REGISTRY.register("magical_gems", () -> new MagicalGemsItem());
-	public static final RegistryObject<Item> MAGICAL_GEMS_ORE = block(MagicalArtifactsModBlocks.MAGICAL_GEMS_ORE);
-	public static final RegistryObject<Item> MAGICAL_GEMS_BLOCK = block(MagicalArtifactsModBlocks.MAGICAL_GEMS_BLOCK);
+	public static final RegistryObject<Item> DUNETITE = REGISTRY.register("dunetite", () -> new DunetiteItem());
+	public static final RegistryObject<Item> DUNETITE_ORE = block(MagicalArtifactsModBlocks.DUNETITE_ORE);
+	public static final RegistryObject<Item> DUNETITE_BLOCK = block(MagicalArtifactsModBlocks.DUNETITE_BLOCK);
+	public static final RegistryObject<Item> NOT_RIPE_ANUPHOOM = block(MagicalArtifactsModBlocks.NOT_RIPE_ANUPHOOM);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "magical_artifacts:block/magicalgems_ore",
-    "particle": "magical_artifacts:block/magicalgems_ore"
-  },
-  "render_type": "solid"
-}

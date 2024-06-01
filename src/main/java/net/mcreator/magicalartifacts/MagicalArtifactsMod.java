@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.magicalartifacts.init.MagicalArtifactsModTabs;
+import net.mcreator.magicalartifacts.init.MagicalArtifactsModSounds;
 import net.mcreator.magicalartifacts.init.MagicalArtifactsModItems;
 import net.mcreator.magicalartifacts.init.MagicalArtifactsModEntities;
 import net.mcreator.magicalartifacts.init.MagicalArtifactsModBlocks;
@@ -41,7 +42,7 @@ public class MagicalArtifactsMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		MagicalArtifactsModSounds.REGISTRY.register(bus);
 		MagicalArtifactsModBlocks.REGISTRY.register(bus);
 
 		MagicalArtifactsModItems.REGISTRY.register(bus);

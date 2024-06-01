@@ -1,7 +1,12 @@
 {
-  "block.magical_artifacts.magical_gems_block": "Block of MagicalGems",
-  "block.magical_artifacts.magical_gems_ore": "MagicalGems Ore",
+  "subtitles.anumhoom.destroy": "anumhoom destroy",
+  "subtitles.anumhoom.place": "anumhoom place",
+  "block.magical_artifacts.not_ripe_anuphoom": "anuphoom",
+  "subtitles.anumhoom.step": "anumhoom step",
   "item_group.magical_artifacts.magical_artifacts": "Magical artifacts",
+  "block.magical_artifacts.dunetite_ore": "дунетитовая руда",
   "item.magical_artifacts.magic_wand": "волшебная палочка",
-  "item.magical_artifacts.magical_gems": "MagicalGems"
+  "item.magical_artifacts.dunetite": "дунетит",
+  "block.magical_artifacts.dunetite_block": "блок дунетита",
+  "subtitles.anumhoom.stop": "anumhoom stop"
 }

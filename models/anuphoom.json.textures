@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "notripe": {
+      "map": {
+        "0": "anuphoom_not_ripe"
+      },
+      "name": "notripe"
+    },
+    "default": {
+      "map": {
+        "0": "anuphoom"
+      },
+      "name": "default"
+    }
+  }
+}

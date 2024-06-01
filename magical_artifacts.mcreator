@@ -148,128 +148,181 @@
       "path": "~/Spells/Bombardo"
     },
     {
-      "name": "MagicalGems",
+      "name": "Dunetite",
       "type": "item",
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "magical_gems",
+      "registry_name": "dunetite",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magical_artifacts/models/item/magical_gems.json",
-          "src/main/java/net/mcreator/magicalartifacts/item/MagicalGemsItem.java"
+          "src/main/resources/assets/magical_artifacts/models/item/dunetite.json",
+          "src/main/java/net/mcreator/magicalartifacts/item/DunetiteItem.java"
         ]
       },
       "path": "~/Ores/Magical Ore"
     },
     {
-      "name": "MagicalGemsOre",
+      "name": "DunetiteOre",
       "type": "block",
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "magical_gems_ore",
+      "registry_name": "dunetite_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magical_artifacts/blockstates/magical_gems_ore.json",
-          "src/main/java/net/mcreator/magicalartifacts/block/MagicalGemsOreBlock.java",
-          "src/main/resources/data/magical_artifacts/loot_tables/blocks/magical_gems_ore.json",
-          "src/main/resources/data/magical_artifacts/worldgen/configured_feature/magical_gems_ore.json",
-          "src/main/resources/assets/magical_artifacts/models/item/magical_gems_ore.json",
-          "src/main/resources/data/magical_artifacts/worldgen/placed_feature/magical_gems_ore.json",
-          "src/main/resources/data/magical_artifacts/forge/biome_modifier/magical_gems_ore_biome_modifier.json",
-          "src/main/resources/assets/magical_artifacts/models/block/magical_gems_ore.json"
+          "src/main/resources/assets/magical_artifacts/models/block/dunetite_ore.json",
+          "src/main/java/net/mcreator/magicalartifacts/block/DunetiteOreBlock.java",
+          "src/main/resources/data/magical_artifacts/worldgen/placed_feature/dunetite_ore.json",
+          "src/main/resources/data/magical_artifacts/loot_tables/blocks/dunetite_ore.json",
+          "src/main/resources/assets/magical_artifacts/models/item/dunetite_ore.json",
+          "src/main/resources/data/magical_artifacts/worldgen/configured_feature/dunetite_ore.json",
+          "src/main/resources/data/magical_artifacts/forge/biome_modifier/dunetite_ore_biome_modifier.json",
+          "src/main/resources/assets/magical_artifacts/blockstates/dunetite_ore.json"
         ]
       },
       "path": "~/Ores/Magical Ore"
     },
     {
-      "name": "MagicalGemsBlock",
+      "name": "DunetiteBlock",
       "type": "block",
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "magical_gems_block",
+      "registry_name": "dunetite_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/magicalartifacts/block/MagicalGemsBlockBlock.java",
-          "src/main/resources/assets/magical_artifacts/models/block/magical_gems_block.json",
-          "src/main/resources/assets/magical_artifacts/blockstates/magical_gems_block.json",
-          "src/main/resources/data/magical_artifacts/loot_tables/blocks/magical_gems_block.json",
-          "src/main/resources/assets/magical_artifacts/models/item/magical_gems_block.json"
+          "src/main/resources/data/magical_artifacts/loot_tables/blocks/dunetite_block.json",
+          "src/main/resources/assets/magical_artifacts/models/item/dunetite_block.json",
+          "src/main/resources/assets/magical_artifacts/blockstates/dunetite_block.json",
+          "src/main/resources/assets/magical_artifacts/models/block/dunetite_block.json",
+          "src/main/java/net/mcreator/magicalartifacts/block/DunetiteBlockBlock.java"
         ]
       },
       "path": "~/Ores/Magical Ore"
     },
     {
-      "name": "MagicalGemsOreBlockRecipe",
+      "name": "DunetiteOreBlockRecipe",
       "type": "recipe",
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "magical_gems_ore_block_recipe",
+      "registry_name": "dunetite_ore_block_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/magical_artifacts/recipes/magical_gems_ore_block_recipe.json"
+          "src/main/resources/data/magical_artifacts/recipes/dunetite_ore_block_recipe.json"
         ]
       },
       "path": "~/Ores/Magical Ore"
     },
     {
-      "name": "MagicalGemsBlockOreRecipe",
+      "name": "DunetiteBlockOreRecipe",
       "type": "recipe",
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "magical_gems_block_ore_recipe",
+      "registry_name": "dunetite_block_ore_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/magical_artifacts/recipes/magical_gems_block_ore_recipe.json"
+          "src/main/resources/data/magical_artifacts/recipes/dunetite_block_ore_recipe.json"
         ]
       },
       "path": "~/Ores/Magical Ore"
     },
     {
-      "name": "MagicalGemsOreSmelting",
+      "name": "DunetiteOreSmelting",
       "type": "recipe",
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "magical_gems_ore_smelting",
+      "registry_name": "dunetite_ore_smelting",
       "metadata": {
         "files": [
-          "src/main/resources/data/magical_artifacts/recipes/magical_gems_ore_smelting.json"
+          "src/main/resources/data/magical_artifacts/recipes/dunetite_ore_smelting.json"
         ]
       },
       "path": "~/Ores/Magical Ore"
+    },
+    {
+      "name": "NotRipeAnuphoom",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "not_ripe_anuphoom",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magical_artifacts/models/block/not_ripe_anuphoom.json",
+          "src/main/java/net/mcreator/magicalartifacts/block/NotRipeAnuphoomBlock.java",
+          "src/main/resources/assets/magical_artifacts/blockstates/not_ripe_anuphoom.json",
+          "src/main/resources/data/magical_artifacts/loot_tables/blocks/not_ripe_anuphoom.json",
+          "src/main/resources/assets/magical_artifacts/models/item/not_ripe_anuphoom.json"
+        ]
+      },
+      "path": "~/plants"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "anumhoom.destroy",
+      "files": [
+        "anumhoom_destroy"
+      ],
+      "category": "neutral",
+      "subtitle": "anumhoom destroy"
+    },
+    {
+      "name": "anumhoom.place",
+      "files": [
+        "anuphoom_place"
+      ],
+      "category": "neutral",
+      "subtitle": "anumhoom place"
+    },
+    {
+      "name": "anumhoom.step",
+      "files": [
+        "anuphoom_step"
+      ],
+      "category": "neutral",
+      "subtitle": "anumhoom step"
+    }
+  ],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:MagicalGemsBlock",
-      "~CUSTOM:MagicalGemsOre"
+      "~CUSTOM:DunetiteBlock",
+      "~CUSTOM:DunetiteOre"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
-      "~CUSTOM:MagicalGemsBlock",
-      "~CUSTOM:MagicalGemsOre"
+      "~CUSTOM:DunetiteBlock",
+      "~CUSTOM:DunetiteOre"
     ]
   },
   "language_map": {
     "ru_ru": {
-      "block.magical_artifacts.magical_gems_block": "Block of MagicalGems",
-      "block.magical_artifacts.magical_gems_ore": "MagicalGems Ore",
+      "subtitles.anumhoom.destroy": "anumhoom destroy",
+      "subtitles.anumhoom.place": "anumhoom place",
+      "block.magical_artifacts.not_ripe_anuphoom": "anuphoom",
+      "subtitles.anumhoom.step": "anumhoom step",
       "item_group.magical_artifacts.magical_artifacts": "Magical artifacts",
+      "block.magical_artifacts.dunetite_ore": "дунетитовая руда",
       "item.magical_artifacts.magic_wand": "волшебная палочка",
-      "item.magical_artifacts.magical_gems": "MagicalGems"
+      "item.magical_artifacts.dunetite": "дунетит",
+      "block.magical_artifacts.dunetite_block": "блок дунетита",
+      "subtitles.anumhoom.stop": "anumhoom stop"
     },
     "en_us": {
-      "block.magical_artifacts.magical_gems_block": "Block of MagicalGems",
-      "block.magical_artifacts.magical_gems_ore": "MagicalGems Ore",
-      "item_group.magical_artifacts.magical_artifacts": "Magical Artifacts",
-      "item.magical_artifacts.magic_wand": "Magic Wand",
-      "item.magical_artifacts.magical_gems": "MagicalGems"
+      "subtitles.anumhoom.destroy": "anumhoom destroy",
+      "subtitles.anumhoom.place": "anumhoom place",
+      "block.magical_artifacts.not_ripe_anuphoom": "anuphoom",
+      "subtitles.anumhoom.step": "anumhoom step",
+      "item_group.magical_artifacts.magical_artifacts": "Magical artifacts",
+      "block.magical_artifacts.dunetite_ore": "Dunetite Ore",
+      "item.magical_artifacts.magic_wand": "magic wand",
+      "item.magical_artifacts.dunetite": "Dunetite",
+      "block.magical_artifacts.dunetite_block": "Block of Dunetite",
+      "subtitles.anumhoom.stop": "anumhoom stop"
     }
   },
   "foldersRoot": {
@@ -292,6 +345,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "plants",
+        "children": []
       }
     ]
   },

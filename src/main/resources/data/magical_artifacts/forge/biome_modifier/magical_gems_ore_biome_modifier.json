@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "#is_overworld",
-  "features": "magical_artifacts:magical_gems_ore",
-  "step": "underground_ores"
-}

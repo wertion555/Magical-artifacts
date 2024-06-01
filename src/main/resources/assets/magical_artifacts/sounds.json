@@ -1,0 +1,29 @@
+{
+  "anumhoom.destroy": {
+    "subtitle": "subtitles.anumhoom.destroy",
+    "sounds": [
+      {
+        "name": "magical_artifacts:anumhoom_destroy",
+        "stream": false
+      }
+    ]
+  },
+  "anumhoom.place": {
+    "subtitle": "subtitles.anumhoom.place",
+    "sounds": [
+      {
+        "name": "magical_artifacts:anuphoom_place",
+        "stream": false
+      }
+    ]
+  },
+  "anumhoom.step": {
+    "subtitle": "subtitles.anumhoom.step",
+    "sounds": [
+      {
+        "name": "magical_artifacts:anuphoom_step",
+        "stream": false
+      }
+    ]
+  }
+}
