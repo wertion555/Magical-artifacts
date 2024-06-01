@@ -76,7 +76,8 @@
           "src/main/java/net/mcreator/magicalartifacts/procedures/SpellShotEntityProcedure.java"
         ],
         "dependencies": []
-      }
+      },
+      "path": "~/Spells"
     },
     {
       "name": "SpellShotBlock",
@@ -90,7 +91,8 @@
           "src/main/java/net/mcreator/magicalartifacts/procedures/SpellShotBlockProcedure.java"
         ],
         "dependencies": []
-      }
+      },
+      "path": "~/Spells"
     },
     {
       "name": "Spell",
@@ -104,7 +106,68 @@
           "src/main/java/net/mcreator/magicalartifacts/client/renderer/SpellRenderer.java",
           "src/main/java/net/mcreator/magicalartifacts/entity/SpellEntity.java"
         ]
-      }
+      },
+      "path": "~/Spells"
+    },
+    {
+      "name": "SpellBombardoShotBlock",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_bombardo_shot_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalartifacts/procedures/SpellBombardoShotBlockProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Spells/Bombardo"
+    },
+    {
+      "name": "SpellBomdardo",
+      "type": "projectile",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_bomdardo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalartifacts/client/renderer/SpellBomdardoRenderer.java",
+          "src/main/java/net/mcreator/magicalartifacts/entity/SpellBomdardoEntity.java"
+        ]
+      },
+      "path": "~/Spells/Bombardo"
+    },
+    {
+      "name": "SpellBombardoShotEntity",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_bombardo_shot_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalartifacts/procedures/SpellBombardoShotEntityProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Spells/Bombardo"
+    },
+    {
+      "name": "SpellBombardoTick",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_bombardo_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalartifacts/procedures/SpellBombardoTickProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Spells/Bombardo"
     }
   ],
   "variable_elements": [],
@@ -122,7 +185,17 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Spells",
+        "children": [
+          {
+            "name": "Bombardo",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "magical_artifacts",
