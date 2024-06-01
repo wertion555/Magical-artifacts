@@ -260,6 +260,25 @@
         ]
       },
       "path": "~/plants"
+    },
+    {
+      "name": "Anuphoom",
+      "type": "plant",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anuphoom",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalartifacts/block/entity/AnuphoomBlockEntity.java",
+          "src/main/resources/assets/magical_artifacts/models/item/anuphoom.json",
+          "src/main/java/net/mcreator/magicalartifacts/block/AnuphoomBlock.java",
+          "src/main/resources/assets/magical_artifacts/blockstates/anuphoom.json",
+          "src/main/resources/data/magical_artifacts/loot_tables/blocks/anuphoom.json",
+          "src/main/resources/assets/magical_artifacts/models/block/anuphoom.json"
+        ]
+      },
+      "path": "~/plants"
     }
   ],
   "variable_elements": [],
@@ -304,6 +323,7 @@
       "subtitles.anumhoom.destroy": "anumhoom destroy",
       "subtitles.anumhoom.place": "anumhoom place",
       "block.magical_artifacts.not_ripe_anuphoom": "anuphoom",
+      "block.magical_artifacts.anuphoom": "Anuphoom",
       "subtitles.anumhoom.step": "anumhoom step",
       "item_group.magical_artifacts.magical_artifacts": "Magical artifacts",
       "block.magical_artifacts.dunetite_ore": "дунетитовая руда",
@@ -316,6 +336,7 @@
       "subtitles.anumhoom.destroy": "anumhoom destroy",
       "subtitles.anumhoom.place": "anumhoom place",
       "block.magical_artifacts.not_ripe_anuphoom": "anuphoom",
+      "block.magical_artifacts.anuphoom": "Anuphoom",
       "subtitles.anumhoom.step": "anumhoom step",
       "item_group.magical_artifacts.magical_artifacts": "Magical artifacts",
       "block.magical_artifacts.dunetite_ore": "Dunetite Ore",

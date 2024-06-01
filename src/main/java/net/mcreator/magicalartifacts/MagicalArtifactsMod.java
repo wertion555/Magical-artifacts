@@ -22,6 +22,7 @@ import net.mcreator.magicalartifacts.init.MagicalArtifactsModSounds;
 import net.mcreator.magicalartifacts.init.MagicalArtifactsModItems;
 import net.mcreator.magicalartifacts.init.MagicalArtifactsModEntities;
 import net.mcreator.magicalartifacts.init.MagicalArtifactsModBlocks;
+import net.mcreator.magicalartifacts.init.MagicalArtifactsModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -44,7 +45,7 @@ public class MagicalArtifactsMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		MagicalArtifactsModSounds.REGISTRY.register(bus);
 		MagicalArtifactsModBlocks.REGISTRY.register(bus);
-
+		MagicalArtifactsModBlockEntities.REGISTRY.register(bus);
 		MagicalArtifactsModItems.REGISTRY.register(bus);
 		MagicalArtifactsModEntities.REGISTRY.register(bus);
 
