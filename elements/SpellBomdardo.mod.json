@@ -16,13 +16,13 @@
     "entityModel": "Modelbullet",
     "customModelTexture": "bullet.png",
     "onHitsBlock": {
-      "name": "SpellBombardoShotBlock"
+      "name": "SpellBambardoShot"
     },
     "onHitsPlayer": {
-      "name": "SpellBombardoShotEntity"
+      "name": "SpellBambardoShot"
     },
     "onHitsEntity": {
-      "name": "SpellBombardoShotEntity"
+      "name": "SpellBambardoShot"
     },
     "onFlyingTick": {
       "name": "SpellBombardoTick"

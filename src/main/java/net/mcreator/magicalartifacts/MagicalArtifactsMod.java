@@ -20,6 +20,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.magicalartifacts.init.MagicalArtifactsModTabs;
 import net.mcreator.magicalartifacts.init.MagicalArtifactsModItems;
 import net.mcreator.magicalartifacts.init.MagicalArtifactsModEntities;
+import net.mcreator.magicalartifacts.init.MagicalArtifactsModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -40,6 +41,8 @@ public class MagicalArtifactsMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		MagicalArtifactsModBlocks.REGISTRY.register(bus);
 
 		MagicalArtifactsModItems.REGISTRY.register(bus);
 		MagicalArtifactsModEntities.REGISTRY.register(bus);

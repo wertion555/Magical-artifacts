@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "magical_artifacts:magical_gems"
+    }
+  },
+  "result": {
+    "item": "magical_artifacts:magical_gems_block",
+    "count": 1
+  }
+}

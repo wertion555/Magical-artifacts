@@ -65,38 +65,6 @@
       }
     },
     {
-      "name": "SpellBombardoShotBlock",
-      "type": "procedure",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "spell_bombardo_shot_block",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/magicalartifacts/procedures/SpellBombardoShotBlockProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Spells/Bombardo"
-    },
-    {
       "name": "SpellBomdardo",
       "type": "projectile",
       "sortid": 8,
@@ -108,21 +76,6 @@
           "src/main/java/net/mcreator/magicalartifacts/client/renderer/SpellBomdardoRenderer.java",
           "src/main/java/net/mcreator/magicalartifacts/entity/SpellBomdardoEntity.java"
         ]
-      },
-      "path": "~/Spells/Bombardo"
-    },
-    {
-      "name": "SpellBombardoShotEntity",
-      "type": "procedure",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "spell_bombardo_shot_entity",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/magicalartifacts/procedures/SpellBombardoShotEntityProcedure.java"
-        ],
-        "dependencies": []
       },
       "path": "~/Spells/Bombardo"
     },
@@ -161,19 +114,156 @@
         ]
       },
       "path": "~/Spells/Bombardo"
+    },
+    {
+      "name": "SpellBambardoShot",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_bambardo_shot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalartifacts/procedures/SpellBambardoShotProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Spells/Bombardo"
+    },
+    {
+      "name": "MagicalGems",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magical_gems",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magical_artifacts/models/item/magical_gems.json",
+          "src/main/java/net/mcreator/magicalartifacts/item/MagicalGemsItem.java"
+        ]
+      },
+      "path": "~/Ores/Magica Ore"
+    },
+    {
+      "name": "MagicalGemsOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magical_gems_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magical_artifacts/blockstates/magical_gems_ore.json",
+          "src/main/java/net/mcreator/magicalartifacts/block/MagicalGemsOreBlock.java",
+          "src/main/resources/data/magical_artifacts/loot_tables/blocks/magical_gems_ore.json",
+          "src/main/resources/data/magical_artifacts/worldgen/configured_feature/magical_gems_ore.json",
+          "src/main/resources/assets/magical_artifacts/models/item/magical_gems_ore.json",
+          "src/main/resources/data/magical_artifacts/worldgen/placed_feature/magical_gems_ore.json",
+          "src/main/resources/data/magical_artifacts/forge/biome_modifier/magical_gems_ore_biome_modifier.json",
+          "src/main/resources/assets/magical_artifacts/models/block/magical_gems_ore.json"
+        ]
+      },
+      "path": "~/Ores/Magica Ore"
+    },
+    {
+      "name": "MagicalGemsBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magical_gems_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalartifacts/block/MagicalGemsBlockBlock.java",
+          "src/main/resources/assets/magical_artifacts/models/block/magical_gems_block.json",
+          "src/main/resources/assets/magical_artifacts/blockstates/magical_gems_block.json",
+          "src/main/resources/data/magical_artifacts/loot_tables/blocks/magical_gems_block.json",
+          "src/main/resources/assets/magical_artifacts/models/item/magical_gems_block.json"
+        ]
+      },
+      "path": "~/Ores/Magica Ore"
+    },
+    {
+      "name": "MagicalGemsOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magical_gems_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magical_artifacts/recipes/magical_gems_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Ores/Magica Ore"
+    },
+    {
+      "name": "MagicalGemsBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magical_gems_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magical_artifacts/recipes/magical_gems_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Ores/Magica Ore"
+    },
+    {
+      "name": "MagicalGemsOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magical_gems_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magical_artifacts/recipes/magical_gems_ore_smelting.json"
+        ]
+      },
+      "path": "~/Ores/Magica Ore"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:MagicalGemsBlock",
+      "~CUSTOM:MagicalGemsOre"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:MagicalGemsBlock",
+      "~CUSTOM:MagicalGemsOre"
+    ]
+  },
   "language_map": {
     "ru_ru": {
+      "block.magical_artifacts.magical_gems_block": "Block of MagicalGems",
+      "block.magical_artifacts.magical_gems_ore": "MagicalGems Ore",
       "item_group.magical_artifacts.magical_artifacts": "Magical artifacts",
-      "item.magical_artifacts.magic_wand": "волшебная палочка"
+      "item.magical_artifacts.magic_wand": "волшебная палочка",
+      "item.magical_artifacts.magical_gems": "MagicalGems"
     },
     "en_us": {
+      "block.magical_artifacts.magical_gems_block": "Block of MagicalGems",
+      "block.magical_artifacts.magical_gems_ore": "MagicalGems Ore",
       "item_group.magical_artifacts.magical_artifacts": "Magical Artifacts",
-      "item.magical_artifacts.magic_wand": "Magic Wand"
+      "item.magical_artifacts.magic_wand": "Magic Wand",
+      "item.magical_artifacts.magical_gems": "MagicalGems"
     }
   },
   "foldersRoot": {
@@ -184,6 +274,15 @@
         "children": [
           {
             "name": "Bombardo",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Ores",
+        "children": [
+          {
+            "name": "Magica Ore",
             "children": []
           }
         ]

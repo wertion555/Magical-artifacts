@@ -21,8 +21,7 @@ import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 
 import net.mcreator.magicalartifacts.procedures.SpellBombardoTickProcedure;
-import net.mcreator.magicalartifacts.procedures.SpellBombardoShotEntityProcedure;
-import net.mcreator.magicalartifacts.procedures.SpellBombardoShotBlockProcedure;
+import net.mcreator.magicalartifacts.procedures.SpellBambardoShotProcedure;
 import net.mcreator.magicalartifacts.init.MagicalArtifactsModEntities;
 
 @OnlyIn(value = Dist.CLIENT, _interface = ItemSupplier.class)
@@ -70,19 +69,19 @@ public class SpellBomdardoEntity extends AbstractArrow implements ItemSupplier {
 	@Override
 	public void playerTouch(Player entity) {
 		super.playerTouch(entity);
-		SpellBombardoShotEntityProcedure.execute();
+		SpellBambardoShotProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
 	}
 
 	@Override
 	public void onHitEntity(EntityHitResult entityHitResult) {
 		super.onHitEntity(entityHitResult);
-		SpellBombardoShotEntityProcedure.execute();
+		SpellBambardoShotProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
 	}
 
 	@Override
 	public void onHitBlock(BlockHitResult blockHitResult) {
 		super.onHitBlock(blockHitResult);
-		SpellBombardoShotBlockProcedure.execute(this.level(), blockHitResult.getBlockPos().getX(), blockHitResult.getBlockPos().getY(), blockHitResult.getBlockPos().getZ());
+		SpellBambardoShotProcedure.execute(this.level(), blockHitResult.getBlockPos().getX(), blockHitResult.getBlockPos().getY(), blockHitResult.getBlockPos().getZ());
 	}
 
 	@Override

@@ -1,4 +1,7 @@
 {
+  "block.magical_artifacts.magical_gems_block": "Block of MagicalGems",
+  "block.magical_artifacts.magical_gems_ore": "MagicalGems Ore",
   "item_group.magical_artifacts.magical_artifacts": "Magical artifacts",
-  "item.magical_artifacts.magic_wand": "волшебная палочка"
+  "item.magical_artifacts.magic_wand": "волшебная палочка",
+  "item.magical_artifacts.magical_gems": "MagicalGems"
 }
