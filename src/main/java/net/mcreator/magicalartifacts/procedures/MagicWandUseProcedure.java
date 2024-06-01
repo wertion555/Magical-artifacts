@@ -30,7 +30,7 @@ public class MagicWandUseProcedure {
 					return entityToSpawn;
 				}
 			}.getArrow(projectileLevel, entity, 5, 15, (byte) 3);
-			_entityToSpawn.setPos(x, y, z);
+			_entityToSpawn.setPos(x, (y + 1), z);
 			_entityToSpawn.shoot((entity.getLookAngle().x), (entity.getLookAngle().y), (entity.getLookAngle().z), 5, 0);
 			projectileLevel.addFreshEntity(_entityToSpawn);
 		}
