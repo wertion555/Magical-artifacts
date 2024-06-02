@@ -3,7 +3,7 @@
   "_type": "keybind",
   "definition": {
     "triggerKey": "TAB",
-    "keyBindingName": "Spell Select",
+    "keyBindingName": "spell select",
     "keyBindingCategoryKey": "magical_artifacts",
     "onKeyPressed": {
       "name": "SpellSelectPress"
