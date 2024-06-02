@@ -6,13 +6,13 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.core.BlockPos;
 
 public class SpellLevitationTickProcedure {
-	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
-		if (entity == null)
+	public static void execute(LevelAccessor world, double x, double y, double z, Entity immediatesourceentity) {
+		if (immediatesourceentity == null)
 			return;
 		if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() instanceof LiquidBlock) {
-			entity.setNoGravity(false);
+			immediatesourceentity.setNoGravity(false);
 		} else {
-			entity.setNoGravity(true);
+			immediatesourceentity.setNoGravity(true);
 		}
 	}
 }

@@ -327,7 +327,12 @@
         "files": [
           "src/main/java/net/mcreator/magicalartifacts/procedures/SpellRepulsionHitBlockProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       },
       "path": "~/Spells/repulsion"
     },
@@ -433,7 +438,7 @@
         ],
         "dependencies": [
           {
-            "name": "entity",
+            "name": "immediatesourceentity",
             "type": "entity"
           },
           {

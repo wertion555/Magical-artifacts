@@ -67,7 +67,7 @@ public class SpellRepulsionEntity extends AbstractArrow implements ItemSupplier 
 	@Override
 	public void onHitBlock(BlockHitResult blockHitResult) {
 		super.onHitBlock(blockHitResult);
-		SpellRepulsionHitBlockProcedure.execute();
+		SpellRepulsionHitBlockProcedure.execute(this.getOwner());
 	}
 
 	@Override
