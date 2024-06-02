@@ -68,13 +68,13 @@ public class SpellLevitationEntity extends AbstractArrow implements ItemSupplier
 	@Override
 	public void playerTouch(Player entity) {
 		super.playerTouch(entity);
-		SpellLevitationHitEntityProcedure.execute();
+		SpellLevitationHitEntityProcedure.execute(entity);
 	}
 
 	@Override
 	public void onHitEntity(EntityHitResult entityHitResult) {
 		super.onHitEntity(entityHitResult);
-		SpellLevitationHitEntityProcedure.execute();
+		SpellLevitationHitEntityProcedure.execute(entityHitResult.getEntity());
 	}
 
 	@Override

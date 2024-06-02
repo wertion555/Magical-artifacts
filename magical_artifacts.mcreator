@@ -327,12 +327,7 @@
         "files": [
           "src/main/java/net/mcreator/magicalartifacts/procedures/SpellRepulsionHitBlockProcedure.java"
         ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
+        "dependencies": []
       },
       "path": "~/Spells/repulsion"
     },
@@ -421,7 +416,12 @@
         "files": [
           "src/main/java/net/mcreator/magicalartifacts/procedures/SpellLevitationHitEntityProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       },
       "path": "~/Spells/levitation"
     },
