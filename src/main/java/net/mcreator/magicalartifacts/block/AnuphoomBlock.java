@@ -9,7 +9,6 @@ import net.minecraftforge.common.PlantType;
 import net.minecraftforge.common.ForgeHooks;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
-import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MapColor;
@@ -34,7 +33,7 @@ public class AnuphoomBlock extends SugarCaneBlock {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return Shapes.or(box(0, 0, 6, 16, 16, 16), box(1, 5, 0, 5, 11, 5));
+		return box(0, 6, 0, 16, 16, 16);
 	}
 
 	@Override
