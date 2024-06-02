@@ -7,7 +7,7 @@
     "textureBottom": "",
     "customModelName": "anuphoom:default",
     "itemTexture": "anuphoom",
-    "particleTexture": "anuphoom",
+    "particleTexture": "invisible",
     "tintType": "No tint",
     "isItemTinted": false,
     "plantType": "growapable",
@@ -16,7 +16,7 @@
     "growapableSpawnType": "Plains",
     "growapableMaxHeight": 6,
     "customBoundingBox": true,
-    "disableOffset": false,
+    "disableOffset": true,
     "boundingBoxes": [
       {
         "mx": 7.0,
