@@ -57,7 +57,7 @@ public class AnuphoomBlock extends SugarCaneBlock {
 		if (world.isEmptyBlock(pos.above())) {
 			int i = 1;
 			for (; world.getBlockState(pos.below(i)).is(this); ++i);
-			if (i < 6) {
+			if (i < 1) {
 				int j = blockstate.getValue(AGE);
 				if (ForgeHooks.onCropsGrowPre(world, pos, blockstate, true)) {
 					if (j == 15) {
