@@ -1,0 +1,15 @@
+{
+  "_fv": 60,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "TAB",
+    "keyBindingName": "Spell Select",
+    "keyBindingCategoryKey": "magical_artifacts",
+    "onKeyPressed": {
+      "name": "SpellSelectPress"
+    },
+    "onKeyReleased": {
+      "name": "SpellSelectRelease"
+    }
+  }
+}

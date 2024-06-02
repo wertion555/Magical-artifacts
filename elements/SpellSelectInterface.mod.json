@@ -1,0 +1,67 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_bambardo",
+          "text": "bambardo",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "BambardoBttn"
+          },
+          "width": 67,
+          "height": 20,
+          "x": 125,
+          "y": 74
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_levitation",
+          "text": "levitation",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "LevitationBttn"
+          },
+          "width": 77,
+          "height": 20,
+          "x": 212,
+          "y": 75
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_repulsion",
+          "text": "repulsion",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "RepulsionBttn"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 149,
+          "y": 107
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

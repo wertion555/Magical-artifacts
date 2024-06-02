@@ -455,6 +455,152 @@
         ]
       },
       "path": "~/Spells/levitation"
+    },
+    {
+      "name": "SpellSelectPress",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_select_press",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalartifacts/procedures/SpellSelectPressProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SpellSelect"
+    },
+    {
+      "name": "SpellSelectRelease",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_select_release",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalartifacts/procedures/SpellSelectReleaseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/SpellSelect"
+    },
+    {
+      "name": "SpellSelect",
+      "type": "keybind",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_select",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalartifacts/network/SpellSelectMessage.java"
+        ]
+      },
+      "path": "~/SpellSelect"
+    },
+    {
+      "name": "BambardoBttn",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bambardo_bttn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalartifacts/procedures/BambardoBttnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/SpellSelect"
+    },
+    {
+      "name": "LevitationBttn",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "levitation_bttn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalartifacts/procedures/LevitationBttnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/SpellSelect"
+    },
+    {
+      "name": "RepulsionBttn",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repulsion_bttn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalartifacts/procedures/RepulsionBttnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/SpellSelect"
+    },
+    {
+      "name": "SpellSelectInterface",
+      "type": "gui",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_select_interface",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalartifacts/network/SpellSelectInterfaceButtonMessage.java",
+          "src/main/java/net/mcreator/magicalartifacts/world/inventory/SpellSelectInterfaceMenu.java",
+          "src/main/java/net/mcreator/magicalartifacts/client/gui/SpellSelectInterfaceScreen.java"
+        ]
+      },
+      "path": "~/SpellSelect"
     }
   ],
   "variable_elements": [
@@ -504,27 +650,35 @@
   "language_map": {
     "ru_ru": {
       "subtitles.anumhoom.destroy": "anumhoom destroy",
-      "subtitles.anumhoom.place": "anumhoom place",
-      "block.magical_artifacts.anuphoom": "Anuphoom",
-      "subtitles.anumhoom.step": "anumhoom step",
+      "block.magical_artifacts.anuphoom": "ануфум",
+      "key.magical_artifacts.spell_select": "Spell Select",
       "item_group.magical_artifacts.magical_artifacts": "Magical artifacts",
       "block.magical_artifacts.dunetite_ore": "дунетитовая руда",
-      "item.magical_artifacts.magic_wand": "волшебная палочка",
       "item.magical_artifacts.dunetite": "дунетит",
       "block.magical_artifacts.dunetite_block": "блок дунетита",
-      "subtitles.anumhoom.stop": "anumhoom stop"
+      "gui.magical_artifacts.spell_select_interface.button_repulsion": "repulsion",
+      "subtitles.anumhoom.place": "anumhoom place",
+      "subtitles.anumhoom.step": "anumhoom step",
+      "key.categories.magical_artifacts": "magical artifacts",
+      "item.magical_artifacts.magic_wand": "волшебная палочка",
+      "gui.magical_artifacts.spell_select_interface.button_levitation": "levitation",
+      "gui.magical_artifacts.spell_select_interface.button_bambardo": "bambardo"
     },
     "en_us": {
       "subtitles.anumhoom.destroy": "anumhoom destroy",
-      "subtitles.anumhoom.place": "anumhoom place",
-      "block.magical_artifacts.anuphoom": "Anuphoom",
-      "subtitles.anumhoom.step": "anumhoom step",
+      "block.magical_artifacts.anuphoom": "anuphoom",
+      "key.magical_artifacts.spell_select": "Spell Select",
       "item_group.magical_artifacts.magical_artifacts": "Magical artifacts",
-      "block.magical_artifacts.dunetite_ore": "Dunetite Ore",
+      "block.magical_artifacts.dunetite_ore": "dunetite ore",
+      "item.magical_artifacts.dunetite": "dunetite",
+      "block.magical_artifacts.dunetite_block": "block of dunetite",
+      "gui.magical_artifacts.spell_select_interface.button_repulsion": "repulsion",
+      "subtitles.anumhoom.place": "anumhoom place",
+      "subtitles.anumhoom.step": "anumhoom step",
+      "key.categories.magical_artifacts": "magical artifacts",
       "item.magical_artifacts.magic_wand": "magic wand",
-      "item.magical_artifacts.dunetite": "Dunetite",
-      "block.magical_artifacts.dunetite_block": "Block of Dunetite",
-      "subtitles.anumhoom.stop": "anumhoom stop"
+      "gui.magical_artifacts.spell_select_interface.button_levitation": "levitation",
+      "gui.magical_artifacts.spell_select_interface.button_bambardo": "bambardo"
     }
   },
   "foldersRoot": {
@@ -564,6 +718,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "SpellSelect",
+        "children": []
       }
     ]
   },

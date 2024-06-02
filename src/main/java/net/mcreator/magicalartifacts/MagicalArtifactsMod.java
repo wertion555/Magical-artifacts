@@ -19,6 +19,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.magicalartifacts.init.MagicalArtifactsModTabs;
 import net.mcreator.magicalartifacts.init.MagicalArtifactsModSounds;
+import net.mcreator.magicalartifacts.init.MagicalArtifactsModMenus;
 import net.mcreator.magicalartifacts.init.MagicalArtifactsModItems;
 import net.mcreator.magicalartifacts.init.MagicalArtifactsModEntities;
 import net.mcreator.magicalartifacts.init.MagicalArtifactsModBlocks;
@@ -50,6 +51,7 @@ public class MagicalArtifactsMod {
 
 		MagicalArtifactsModTabs.REGISTRY.register(bus);
 
+		MagicalArtifactsModMenus.REGISTRY.register(bus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}
