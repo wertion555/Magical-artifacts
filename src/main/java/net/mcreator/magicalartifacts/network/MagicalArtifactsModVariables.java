@@ -103,7 +103,7 @@ public class MagicalArtifactsModVariables {
 	}
 
 	public static class PlayerVariables {
-		public String selectedSpell = "";
+		public String selectedSpell = "bambardo";
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)

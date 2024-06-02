@@ -116,50 +116,6 @@
       "path": "~/Spells/Bombardo"
     },
     {
-      "name": "SpellBambardoShot",
-      "type": "procedure",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "spell_bambardo_shot",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/magicalartifacts/procedures/SpellBambardoShotProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "immediatesourceentity",
-            "type": "entity"
-          },
-          {
-            "name": "sourceentity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Spells/Bombardo"
-    },
-    {
       "name": "Dunetite",
       "type": "item",
       "sortid": 12,
@@ -256,15 +212,36 @@
       "path": "~/Ores/Magical Ore"
     },
     {
-      "name": "SpellBambardoShotBlock",
-      "type": "procedure",
-      "sortid": 18,
+      "name": "Anuphoom",
+      "type": "plant",
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "spell_bambardo_shot_block",
+      "registry_name": "anuphoom",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/magicalartifacts/procedures/SpellBambardoShotBlockProcedure.java"
+          "src/main/resources/data/magical_artifacts/forge/biome_modifier/anuphoom_biome_modifier.json",
+          "src/main/resources/assets/magical_artifacts/models/item/anuphoom.json",
+          "src/main/java/net/mcreator/magicalartifacts/block/AnuphoomBlock.java",
+          "src/main/resources/data/magical_artifacts/worldgen/placed_feature/anuphoom.json",
+          "src/main/resources/assets/magical_artifacts/blockstates/anuphoom.json",
+          "src/main/resources/data/magical_artifacts/worldgen/configured_feature/anuphoom.json",
+          "src/main/resources/data/magical_artifacts/loot_tables/blocks/anuphoom.json",
+          "src/main/resources/assets/magical_artifacts/models/block/anuphoom.json"
+        ]
+      },
+      "path": "~/plants/anuphoom"
+    },
+    {
+      "name": "SpellBambardoHitBlock",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_bambardo_hit_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalartifacts/procedures/SpellBambardoHitBlockProcedure.java"
         ],
         "dependencies": [
           {
@@ -296,25 +273,203 @@
       "path": "~/Spells/Bombardo"
     },
     {
-      "name": "Anuphoom",
-      "type": "plant",
-      "sortid": 19,
+      "name": "SpellBambardoHitEntity",
+      "type": "procedure",
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "anuphoom",
+      "registry_name": "spell_bambardo_hit_entity",
       "metadata": {
         "files": [
-          "src/main/resources/data/magical_artifacts/forge/biome_modifier/anuphoom_biome_modifier.json",
-          "src/main/resources/assets/magical_artifacts/models/item/anuphoom.json",
-          "src/main/java/net/mcreator/magicalartifacts/block/AnuphoomBlock.java",
-          "src/main/resources/data/magical_artifacts/worldgen/placed_feature/anuphoom.json",
-          "src/main/resources/assets/magical_artifacts/blockstates/anuphoom.json",
-          "src/main/resources/data/magical_artifacts/worldgen/configured_feature/anuphoom.json",
-          "src/main/resources/data/magical_artifacts/loot_tables/blocks/anuphoom.json",
-          "src/main/resources/assets/magical_artifacts/models/block/anuphoom.json"
+          "src/main/java/net/mcreator/magicalartifacts/procedures/SpellBambardoHitEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       },
-      "path": "~/plants/anuphoom"
+      "path": "~/Spells/Bombardo"
+    },
+    {
+      "name": "SpellRepulsionHitBlock",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_repulsion_hit_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalartifacts/procedures/SpellRepulsionHitBlockProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Spells/repulsion"
+    },
+    {
+      "name": "SpellRepulsion",
+      "type": "projectile",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_repulsion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalartifacts/client/renderer/SpellRepulsionRenderer.java",
+          "src/main/java/net/mcreator/magicalartifacts/entity/SpellRepulsionEntity.java"
+        ]
+      },
+      "path": "~/Spells/repulsion"
+    },
+    {
+      "name": "SpellRepulsionTick",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_repulsion_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalartifacts/procedures/SpellRepulsionTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Spells/repulsion"
+    },
+    {
+      "name": "Chat",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalartifacts/procedures/ChatProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "text",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpellLevitationHitEntity",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_levitation_hit_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalartifacts/procedures/SpellLevitationHitEntityProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Spells/levitation"
+    },
+    {
+      "name": "SpellLevitationTick",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_levitation_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalartifacts/procedures/SpellLevitationTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Spells/levitation"
+    },
+    {
+      "name": "SpellLevitation",
+      "type": "projectile",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_levitation",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalartifacts/client/renderer/SpellLevitationRenderer.java",
+          "src/main/java/net/mcreator/magicalartifacts/entity/SpellLevitationEntity.java"
+        ]
+      },
+      "path": "~/Spells/levitation"
     }
   ],
   "variable_elements": [
@@ -322,7 +477,7 @@
       "name": "selectedSpell",
       "type": "string",
       "scope": "player_persistent",
-      "value": ""
+      "value": "bambardo"
     }
   ],
   "sound_elements": [
@@ -395,6 +550,14 @@
         "children": [
           {
             "name": "Bombardo",
+            "children": []
+          },
+          {
+            "name": "repulsion",
+            "children": []
+          },
+          {
+            "name": "levitation",
             "children": []
           }
         ]

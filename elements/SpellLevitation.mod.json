@@ -9,23 +9,20 @@
     "actionSound": {
       "value": ""
     },
-    "igniteFire": true,
+    "igniteFire": false,
     "power": 1.0,
     "damage": 5.0,
-    "knockback": 15,
+    "knockback": 5,
     "entityModel": "Modelbullet",
     "customModelTexture": "bullet.png",
-    "onHitsBlock": {
-      "name": "SpellBambardoHitBlock"
-    },
     "onHitsPlayer": {
-      "name": "SpellBambardoHitEntity"
+      "name": "SpellLevitationHitEntity"
     },
     "onHitsEntity": {
-      "name": "SpellBambardoHitEntity"
+      "name": "SpellLevitationHitEntity"
     },
     "onFlyingTick": {
-      "name": "SpellBombardoTick"
+      "name": "SpellLevitationTick"
     }
   }
 }

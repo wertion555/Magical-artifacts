@@ -7,7 +7,6 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.phys.EntityHitResult;
-import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
@@ -20,28 +19,27 @@ import net.minecraft.util.RandomSource;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 
-import net.mcreator.magicalartifacts.procedures.SpellBombardoTickProcedure;
-import net.mcreator.magicalartifacts.procedures.SpellBambardoHitEntityProcedure;
-import net.mcreator.magicalartifacts.procedures.SpellBambardoHitBlockProcedure;
+import net.mcreator.magicalartifacts.procedures.SpellLevitationTickProcedure;
+import net.mcreator.magicalartifacts.procedures.SpellLevitationHitEntityProcedure;
 import net.mcreator.magicalartifacts.init.MagicalArtifactsModEntities;
 
 @OnlyIn(value = Dist.CLIENT, _interface = ItemSupplier.class)
-public class SpellBomdardoEntity extends AbstractArrow implements ItemSupplier {
+public class SpellLevitationEntity extends AbstractArrow implements ItemSupplier {
 	public static final ItemStack PROJECTILE_ITEM = new ItemStack(Blocks.AIR);
 
-	public SpellBomdardoEntity(PlayMessages.SpawnEntity packet, Level world) {
-		super(MagicalArtifactsModEntities.SPELL_BOMDARDO.get(), world);
+	public SpellLevitationEntity(PlayMessages.SpawnEntity packet, Level world) {
+		super(MagicalArtifactsModEntities.SPELL_LEVITATION.get(), world);
 	}
 
-	public SpellBomdardoEntity(EntityType<? extends SpellBomdardoEntity> type, Level world) {
+	public SpellLevitationEntity(EntityType<? extends SpellLevitationEntity> type, Level world) {
 		super(type, world);
 	}
 
-	public SpellBomdardoEntity(EntityType<? extends SpellBomdardoEntity> type, double x, double y, double z, Level world) {
+	public SpellLevitationEntity(EntityType<? extends SpellLevitationEntity> type, double x, double y, double z, Level world) {
 		super(type, x, y, z, world);
 	}
 
-	public SpellBomdardoEntity(EntityType<? extends SpellBomdardoEntity> type, LivingEntity entity, Level world) {
+	public SpellLevitationEntity(EntityType<? extends SpellLevitationEntity> type, LivingEntity entity, Level world) {
 		super(type, entity, world);
 	}
 
@@ -70,56 +68,48 @@ public class SpellBomdardoEntity extends AbstractArrow implements ItemSupplier {
 	@Override
 	public void playerTouch(Player entity) {
 		super.playerTouch(entity);
-		SpellBambardoHitEntityProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), entity, this, this.getOwner());
+		SpellLevitationHitEntityProcedure.execute();
 	}
 
 	@Override
 	public void onHitEntity(EntityHitResult entityHitResult) {
 		super.onHitEntity(entityHitResult);
-		SpellBambardoHitEntityProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), entityHitResult.getEntity(), this, this.getOwner());
-	}
-
-	@Override
-	public void onHitBlock(BlockHitResult blockHitResult) {
-		super.onHitBlock(blockHitResult);
-		SpellBambardoHitBlockProcedure.execute(this.level(), blockHitResult.getBlockPos().getX(), blockHitResult.getBlockPos().getY(), blockHitResult.getBlockPos().getZ(), this.getOwner(), this);
+		SpellLevitationHitEntityProcedure.execute();
 	}
 
 	@Override
 	public void tick() {
 		super.tick();
-		SpellBombardoTickProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
+		SpellLevitationTickProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this.getOwner());
 		if (this.inGround)
 			this.discard();
 	}
 
-	public static SpellBomdardoEntity shoot(Level world, LivingEntity entity, RandomSource source) {
-		return shoot(world, entity, source, 1f, 5, 15);
+	public static SpellLevitationEntity shoot(Level world, LivingEntity entity, RandomSource source) {
+		return shoot(world, entity, source, 1f, 5, 5);
 	}
 
-	public static SpellBomdardoEntity shoot(Level world, LivingEntity entity, RandomSource random, float power, double damage, int knockback) {
-		SpellBomdardoEntity entityarrow = new SpellBomdardoEntity(MagicalArtifactsModEntities.SPELL_BOMDARDO.get(), entity, world);
+	public static SpellLevitationEntity shoot(Level world, LivingEntity entity, RandomSource random, float power, double damage, int knockback) {
+		SpellLevitationEntity entityarrow = new SpellLevitationEntity(MagicalArtifactsModEntities.SPELL_LEVITATION.get(), entity, world);
 		entityarrow.shoot(entity.getViewVector(1).x, entity.getViewVector(1).y, entity.getViewVector(1).z, power * 2, 0);
 		entityarrow.setSilent(true);
 		entityarrow.setCritArrow(false);
 		entityarrow.setBaseDamage(damage);
 		entityarrow.setKnockback(knockback);
-		entityarrow.setSecondsOnFire(100);
 		world.addFreshEntity(entityarrow);
 		return entityarrow;
 	}
 
-	public static SpellBomdardoEntity shoot(LivingEntity entity, LivingEntity target) {
-		SpellBomdardoEntity entityarrow = new SpellBomdardoEntity(MagicalArtifactsModEntities.SPELL_BOMDARDO.get(), entity, entity.level());
+	public static SpellLevitationEntity shoot(LivingEntity entity, LivingEntity target) {
+		SpellLevitationEntity entityarrow = new SpellLevitationEntity(MagicalArtifactsModEntities.SPELL_LEVITATION.get(), entity, entity.level());
 		double dx = target.getX() - entity.getX();
 		double dy = target.getY() + target.getEyeHeight() - 1.1;
 		double dz = target.getZ() - entity.getZ();
 		entityarrow.shoot(dx, dy - entityarrow.getY() + Math.hypot(dx, dz) * 0.2F, dz, 1f * 2, 12.0F);
 		entityarrow.setSilent(true);
 		entityarrow.setBaseDamage(5);
-		entityarrow.setKnockback(15);
+		entityarrow.setKnockback(5);
 		entityarrow.setCritArrow(false);
-		entityarrow.setSecondsOnFire(100);
 		entity.level().addFreshEntity(entityarrow);
 		return entityarrow;
 	}
