@@ -10,6 +10,7 @@ import net.minecraftforge.common.ForgeHooks;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.BlockState;
@@ -33,7 +34,8 @@ public class AnuphoomBlock extends SugarCaneBlock {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return box(0, 6, 0, 16, 16, 16);
+		Vec3 offset = state.getOffset(world, pos);
+		return box(0, 6, 0, 16, 16, 16).move(offset.x, offset.y, offset.z);
 	}
 
 	@Override

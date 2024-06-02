@@ -16,7 +16,7 @@
     "growapableSpawnType": "Plains",
     "growapableMaxHeight": 1,
     "customBoundingBox": true,
-    "disableOffset": true,
+    "disableOffset": false,
     "boundingBoxes": [
       {
         "mx": 0.0,
