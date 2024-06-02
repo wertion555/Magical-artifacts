@@ -16,7 +16,7 @@
     "entityModel": "Modelbullet",
     "customModelTexture": "bullet.png",
     "onHitsBlock": {
-      "name": "SpellBambardoShot"
+      "name": "SpellBambardoShotBlock"
     },
     "onHitsPlayer": {
       "name": "SpellBambardoShot"

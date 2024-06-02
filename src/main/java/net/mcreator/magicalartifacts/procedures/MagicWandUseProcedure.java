@@ -20,16 +20,15 @@ public class MagicWandUseProcedure {
 			_player.getCooldowns().addCooldown(itemstack.getItem(), 20);
 		if (world instanceof ServerLevel projectileLevel) {
 			Projectile _entityToSpawn = new Object() {
-				public Projectile getArrow(Level level, Entity shooter, float damage, int knockback, byte piercing) {
+				public Projectile getArrow(Level level, Entity shooter, float damage, int knockback) {
 					AbstractArrow entityToSpawn = new SpellBomdardoEntity(MagicalArtifactsModEntities.SPELL_BOMDARDO.get(), level);
 					entityToSpawn.setOwner(shooter);
 					entityToSpawn.setBaseDamage(damage);
 					entityToSpawn.setKnockback(knockback);
 					entityToSpawn.setSilent(true);
-					entityToSpawn.setPierceLevel(piercing);
 					return entityToSpawn;
 				}
-			}.getArrow(projectileLevel, entity, 5, 15, (byte) 3);
+			}.getArrow(projectileLevel, entity, 5, 5);
 			_entityToSpawn.setPos(x, (y + 1), z);
 			_entityToSpawn.shoot((entity.getLookAngle().x), (entity.getLookAngle().y), (entity.getLookAngle().z), 5, 0);
 			projectileLevel.addFreshEntity(_entityToSpawn);
