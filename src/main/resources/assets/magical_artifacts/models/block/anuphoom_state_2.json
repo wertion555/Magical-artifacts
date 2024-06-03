@@ -2,7 +2,7 @@
   "parent": "magical_artifacts:custom/anuphoomnr1",
   "textures": {
     "all": "magical_artifacts:block/plants",
-    "particle": "magical_artifacts:block/plants",
+    "particle": "magical_artifacts:block/invisible",
     "0": "magical_artifacts:block/anuphoom_nr1"
   },
   "render_type": "solid"
