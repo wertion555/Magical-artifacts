@@ -19,7 +19,7 @@ public class MagicalArtifactsModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, MagicalArtifactsMod.MODID);
 	public static final RegistryObject<Block> DUNETITE_ORE = REGISTRY.register("dunetite_ore", () -> new DunetiteOreBlock());
 	public static final RegistryObject<Block> DUNETITE_BLOCK = REGISTRY.register("dunetite_block", () -> new DunetiteBlockBlock());
-	public static final RegistryObject<Block> ANUPHOOM = REGISTRY.register("anuphoom", () -> new AnuphoomBlock());
+	public static final RegistryObject<Block> ANUPHOOM_TEST = REGISTRY.register("anuphoom_test", () -> new AnuphoomBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

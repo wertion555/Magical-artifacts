@@ -1,6 +1,5 @@
 {
   "subtitles.anumhoom.destroy": "anumhoom destroy",
-  "block.magical_artifacts.anuphoom": "ануфум",
   "key.magical_artifacts.spell_select": "выбор заклинания",
   "item_group.magical_artifacts.magical_artifacts": "Magical artifacts",
   "block.magical_artifacts.dunetite_ore": "дунетитовая руда",
@@ -11,6 +10,7 @@
   "subtitles.anumhoom.step": "anumhoom step",
   "key.categories.magical_artifacts": "magical artifacts",
   "item.magical_artifacts.magic_wand": "волшебная палочка",
+  "block.magical_artifacts.anuphoom_test": "Anuphoom",
   "gui.magical_artifacts.spell_select_interface.button_levitation": "levitation",
   "gui.magical_artifacts.spell_select_interface.button_bambardo": "bambardo"
 }
