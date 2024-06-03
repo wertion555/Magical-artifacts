@@ -1,6 +1,5 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "anuphoomNR1",
 	"textures": {
 		"0": "anuphoom_nr1",
 		"particle": "anuphoom_nr1"
@@ -67,6 +66,7 @@
 			}
 		}
 	],
+	"display": {},
 	"groups": [
 		{
 			"name": "anuphoom",

@@ -1,6 +1,5 @@
 {
   "credit": "Made with Blockbench",
-  "parent": "anuphoomNR0",
   "elements": [
     {
       "from": [
@@ -207,7 +206,6 @@
       }
     }
   ],
-  "display": {},
   "groups": [
     {
       "name": "nuphoom",
