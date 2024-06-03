@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "magical_artifacts:blocks/anuphoom_state_4",
+  "random_sequence": "magical_artifacts:blocks/anuphoom_state_1",
   "pools": [
     {
       "rolls": 1.0,
@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "magical_artifacts:anuphoom_state_4"
+          "name": "magical_artifacts:anuphoom_state_1"
         }
       ]
     }

@@ -42,6 +42,6 @@ public class AnuphoomBlock extends Block {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return Shapes.or(box(7, 0, 7, 9, 1, 9), box(7, 1, 7, 8, 3, 8), box(8, 1, 8, 9, 2, 9));
+		return Shapes.or(box(7, 0, 7, 9, 5, 9), box(0, 7, 0, 16, 14, 16));
 	}
 }

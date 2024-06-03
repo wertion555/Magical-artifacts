@@ -9,13 +9,12 @@
   "gui.magical_artifacts.spell_select_interface.button_repulsion": "repulsion",
   "subtitles.anumhoom.place": "anumhoom place",
   "block.magical_artifacts.test": "Anuphoom",
+  "block.magical_artifacts.anuphoom_state_1": "Anuphoom",
   "subtitles.anumhoom.step": "anumhoom step",
   "block.magical_artifacts.anuphoom_state_2": "Anuphoom",
   "key.categories.magical_artifacts": "magical artifacts",
   "item.magical_artifacts.magic_wand": "волшебная палочка",
   "gui.magical_artifacts.spell_select_interface.button_levitation": "levitation",
   "block.magical_artifacts.anuphoom_state_3": "Anuphoom",
-  "block.magical_artifacts.anuphoom_state_4": "Anuphoom",
-  "block.magical_artifacts.anuphoom_state_5": "Anuphoom",
   "gui.magical_artifacts.spell_select_interface.button_bambardo": "bambardo"
 }

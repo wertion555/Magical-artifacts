@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "anuphoom:default",
+    "customModelName": "anuphoomnr0:default",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -28,17 +28,26 @@
         "my": 0.0,
         "mz": 7.0,
         "Mx": 9.0,
-        "My": 5.0,
+        "My": 1.0,
         "Mz": 9.0,
         "subtract": false
       },
       {
-        "mx": 0.0,
-        "my": 6.0,
-        "mz": 0.0,
-        "Mx": 16.0,
-        "My": 15.0,
-        "Mz": 16.0,
+        "mx": 7.0,
+        "my": 1.0,
+        "mz": 7.0,
+        "Mx": 8.0,
+        "My": 3.0,
+        "Mz": 8.0,
+        "subtract": false
+      },
+      {
+        "mx": 8.0,
+        "my": 1.0,
+        "mz": 8.0,
+        "Mx": 9.0,
+        "My": 2.0,
+        "Mz": 9.0,
         "subtract": false
       }
     ],

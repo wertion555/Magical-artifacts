@@ -24,10 +24,9 @@ public class MagicalArtifactsModTabs {
 				tabData.accept(MagicalArtifactsModBlocks.DUNETITE_BLOCK.get().asItem());
 				tabData.accept(MagicalArtifactsModBlocks.TEST.get().asItem());
 				tabData.accept(MagicalArtifactsModBlocks.ANUPHOOM.get().asItem());
+				tabData.accept(MagicalArtifactsModBlocks.ANUPHOOM_STATE_1.get().asItem());
 				tabData.accept(MagicalArtifactsModBlocks.ANUPHOOM_STATE_2.get().asItem());
 				tabData.accept(MagicalArtifactsModBlocks.ANUPHOOM_STATE_3.get().asItem());
-				tabData.accept(MagicalArtifactsModBlocks.ANUPHOOM_STATE_4.get().asItem());
-				tabData.accept(MagicalArtifactsModBlocks.ANUPHOOM_STATE_5.get().asItem());
 			})
 
 					.build());
