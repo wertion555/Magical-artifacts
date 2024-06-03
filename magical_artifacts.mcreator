@@ -212,27 +212,6 @@
       "path": "~/Ores/Magical Ore"
     },
     {
-      "name": "Anuphoom",
-      "type": "plant",
-      "sortid": 19,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "anuphoom_test",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/magical_artifacts/models/item/anuphoom_test.json",
-          "src/main/java/net/mcreator/magicalartifacts/block/AnuphoomBlock.java",
-          "src/main/resources/data/magical_artifacts/forge/biome_modifier/anuphoom_test_biome_modifier.json",
-          "src/main/resources/data/magical_artifacts/loot_tables/blocks/anuphoom_test.json",
-          "src/main/resources/assets/magical_artifacts/blockstates/anuphoom_test.json",
-          "src/main/resources/assets/magical_artifacts/models/block/anuphoom_test.json",
-          "src/main/resources/data/magical_artifacts/worldgen/configured_feature/anuphoom_test.json",
-          "src/main/resources/data/magical_artifacts/worldgen/placed_feature/anuphoom_test.json"
-        ]
-      },
-      "path": "~/plants/anuphoom"
-    },
-    {
       "name": "SpellBambardoHitBlock",
       "type": "procedure",
       "sortid": 23,
@@ -601,6 +580,117 @@
         ]
       },
       "path": "~/SpellSelect"
+    },
+    {
+      "name": "Test",
+      "type": "plant",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magical_artifacts/blockstates/test.json",
+          "src/main/resources/data/magical_artifacts/loot_tables/blocks/test.json",
+          "src/main/resources/data/magical_artifacts/worldgen/configured_feature/test.json",
+          "src/main/resources/data/magical_artifacts/forge/biome_modifier/test_biome_modifier.json",
+          "src/main/java/net/mcreator/magicalartifacts/block/TestBlock.java",
+          "src/main/resources/assets/magical_artifacts/models/block/test.json",
+          "src/main/resources/data/magical_artifacts/worldgen/placed_feature/test.json",
+          "src/main/resources/assets/magical_artifacts/models/item/test.json"
+        ]
+      },
+      "path": "~/plants/anuphoom"
+    },
+    {
+      "name": "Anuphoom",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anuphoom",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magical_artifacts/models/item/anuphoom.json",
+          "src/main/java/net/mcreator/magicalartifacts/block/AnuphoomBlock.java",
+          "src/main/resources/assets/magical_artifacts/blockstates/anuphoom.json",
+          "src/main/resources/data/magical_artifacts/loot_tables/blocks/anuphoom.json",
+          "src/main/resources/assets/magical_artifacts/models/block/anuphoom.json"
+        ]
+      },
+      "path": "~/plants/anuphoom"
+    },
+    {
+      "name": "AnuphoomState2",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anuphoom_state_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalartifacts/block/AnuphoomState2Block.java",
+          "src/main/resources/assets/magical_artifacts/models/item/anuphoom_state_2.json",
+          "src/main/resources/assets/magical_artifacts/blockstates/anuphoom_state_2.json",
+          "src/main/resources/data/magical_artifacts/loot_tables/blocks/anuphoom_state_2.json",
+          "src/main/resources/assets/magical_artifacts/models/block/anuphoom_state_2.json"
+        ]
+      },
+      "path": "~/plants/anuphoom"
+    },
+    {
+      "name": "AnuphoomState3",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anuphoom_state_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalartifacts/block/AnuphoomState3Block.java",
+          "src/main/resources/assets/magical_artifacts/models/item/anuphoom_state_3.json",
+          "src/main/resources/assets/magical_artifacts/models/block/anuphoom_state_3.json",
+          "src/main/resources/assets/magical_artifacts/blockstates/anuphoom_state_3.json",
+          "src/main/resources/data/magical_artifacts/loot_tables/blocks/anuphoom_state_3.json"
+        ]
+      },
+      "path": "~/plants/anuphoom"
+    },
+    {
+      "name": "AnuphoomState4",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anuphoom_state_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magical_artifacts/blockstates/anuphoom_state_4.json",
+          "src/main/resources/assets/magical_artifacts/models/block/anuphoom_state_4.json",
+          "src/main/resources/data/magical_artifacts/loot_tables/blocks/anuphoom_state_4.json",
+          "src/main/java/net/mcreator/magicalartifacts/block/AnuphoomState4Block.java",
+          "src/main/resources/assets/magical_artifacts/models/item/anuphoom_state_4.json"
+        ]
+      },
+      "path": "~/plants/anuphoom"
+    },
+    {
+      "name": "AnuphoomState5",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anuphoom_state_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magical_artifacts/blockstates/anuphoom_state_5.json",
+          "src/main/resources/assets/magical_artifacts/models/item/anuphoom_state_5.json",
+          "src/main/resources/data/magical_artifacts/loot_tables/blocks/anuphoom_state_5.json",
+          "src/main/java/net/mcreator/magicalartifacts/block/AnuphoomState5Block.java",
+          "src/main/resources/assets/magical_artifacts/models/block/anuphoom_state_5.json"
+        ]
+      },
+      "path": "~/plants/anuphoom"
     }
   ],
   "variable_elements": [
@@ -651,33 +741,43 @@
     "ru_ru": {
       "subtitles.anumhoom.destroy": "anumhoom destroy",
       "key.magical_artifacts.spell_select": "выбор заклинания",
+      "block.magical_artifacts.anuphoom": "Anuphoom",
       "item_group.magical_artifacts.magical_artifacts": "Magical artifacts",
       "block.magical_artifacts.dunetite_ore": "дунетитовая руда",
       "item.magical_artifacts.dunetite": "дунетит",
       "block.magical_artifacts.dunetite_block": "блок дунетита",
       "gui.magical_artifacts.spell_select_interface.button_repulsion": "repulsion",
       "subtitles.anumhoom.place": "anumhoom place",
+      "block.magical_artifacts.test": "Anuphoom",
       "subtitles.anumhoom.step": "anumhoom step",
+      "block.magical_artifacts.anuphoom_state_2": "Anuphoom",
       "key.categories.magical_artifacts": "magical artifacts",
       "item.magical_artifacts.magic_wand": "волшебная палочка",
-      "block.magical_artifacts.anuphoom_test": "Anuphoom",
       "gui.magical_artifacts.spell_select_interface.button_levitation": "levitation",
+      "block.magical_artifacts.anuphoom_state_3": "Anuphoom",
+      "block.magical_artifacts.anuphoom_state_4": "Anuphoom",
+      "block.magical_artifacts.anuphoom_state_5": "Anuphoom",
       "gui.magical_artifacts.spell_select_interface.button_bambardo": "bambardo"
     },
     "en_us": {
       "subtitles.anumhoom.destroy": "anumhoom destroy",
       "key.magical_artifacts.spell_select": "spell select",
+      "block.magical_artifacts.anuphoom": "Anuphoom",
       "item_group.magical_artifacts.magical_artifacts": "Magical Artifacts",
       "block.magical_artifacts.dunetite_ore": "Dunetite Ore",
       "item.magical_artifacts.dunetite": "Dunetite",
       "block.magical_artifacts.dunetite_block": "Block of Dunetite",
       "gui.magical_artifacts.spell_select_interface.button_repulsion": "repulsion",
       "subtitles.anumhoom.place": "anumhoom place",
+      "block.magical_artifacts.test": "Anuphoom",
       "subtitles.anumhoom.step": "anumhoom step",
+      "block.magical_artifacts.anuphoom_state_2": "Anuphoom",
       "key.categories.magical_artifacts": "magical artifacts",
       "item.magical_artifacts.magic_wand": "Magic Wand",
-      "block.magical_artifacts.anuphoom_test": "Anuphoom",
       "gui.magical_artifacts.spell_select_interface.button_levitation": "levitation",
+      "block.magical_artifacts.anuphoom_state_3": "Anuphoom",
+      "block.magical_artifacts.anuphoom_state_4": "Anuphoom",
+      "block.magical_artifacts.anuphoom_state_5": "Anuphoom",
       "gui.magical_artifacts.spell_select_interface.button_bambardo": "bambardo"
     }
   },

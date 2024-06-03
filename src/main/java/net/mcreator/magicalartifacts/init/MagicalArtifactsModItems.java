@@ -22,7 +22,12 @@ public class MagicalArtifactsModItems {
 	public static final RegistryObject<Item> DUNETITE = REGISTRY.register("dunetite", () -> new DunetiteItem());
 	public static final RegistryObject<Item> DUNETITE_ORE = block(MagicalArtifactsModBlocks.DUNETITE_ORE);
 	public static final RegistryObject<Item> DUNETITE_BLOCK = block(MagicalArtifactsModBlocks.DUNETITE_BLOCK);
-	public static final RegistryObject<Item> ANUPHOOM_TEST = block(MagicalArtifactsModBlocks.ANUPHOOM_TEST);
+	public static final RegistryObject<Item> TEST = block(MagicalArtifactsModBlocks.TEST);
+	public static final RegistryObject<Item> ANUPHOOM = block(MagicalArtifactsModBlocks.ANUPHOOM);
+	public static final RegistryObject<Item> ANUPHOOM_STATE_2 = block(MagicalArtifactsModBlocks.ANUPHOOM_STATE_2);
+	public static final RegistryObject<Item> ANUPHOOM_STATE_3 = block(MagicalArtifactsModBlocks.ANUPHOOM_STATE_3);
+	public static final RegistryObject<Item> ANUPHOOM_STATE_4 = block(MagicalArtifactsModBlocks.ANUPHOOM_STATE_4);
+	public static final RegistryObject<Item> ANUPHOOM_STATE_5 = block(MagicalArtifactsModBlocks.ANUPHOOM_STATE_5);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -3,6 +3,6 @@
   "biomes": {
     "type": "forge:any"
   },
-  "features": "magical_artifacts:anuphoom_test",
+  "features": "magical_artifacts:test",
   "step": "vegetal_decoration"
 }

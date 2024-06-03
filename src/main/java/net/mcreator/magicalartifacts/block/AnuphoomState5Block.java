@@ -16,8 +16,8 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
 
-public class AnuphoomBlock extends Block {
-	public AnuphoomBlock() {
+public class AnuphoomState5Block extends Block {
+	public AnuphoomState5Block() {
 		super(BlockBehaviour.Properties.of()
 				.sound(new ForgeSoundType(1.0f, 1.0f, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("magical_artifacts:anumhoom.destroy")),
 						() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("magical_artifacts:anumhoom.step")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("magical_artifacts:anumhoom.place")),
@@ -42,6 +42,6 @@ public class AnuphoomBlock extends Block {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return Shapes.or(box(7, 0, 7, 9, 1, 9), box(7, 1, 7, 8, 3, 8), box(8, 1, 8, 9, 2, 9));
+		return Shapes.or(box(7, 0, 7, 9, 5, 9), box(0, 6, 0, 16, 15, 16));
 	}
 }
