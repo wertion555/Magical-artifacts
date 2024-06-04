@@ -722,8 +722,8 @@
   "language_map": {
     "ru_ru": {
       "subtitles.anumhoom.destroy": "anumhoom destroy",
-      "key.magical_artifacts.spell_select": "выбор заклинания",
       "block.magical_artifacts.anuphoom": "Anuphoom",
+      "key.magical_artifacts.spell_select": "выбор заклинания",
       "item_group.magical_artifacts.magical_artifacts": "Magical artifacts",
       "block.magical_artifacts.dunetite_ore": "дунетитовая руда",
       "item.magical_artifacts.dunetite": "дунетит",
@@ -742,8 +742,8 @@
     },
     "en_us": {
       "subtitles.anumhoom.destroy": "anumhoom destroy",
-      "key.magical_artifacts.spell_select": "spell select",
       "block.magical_artifacts.anuphoom": "Anuphoom",
+      "key.magical_artifacts.spell_select": "spell select",
       "item_group.magical_artifacts.magical_artifacts": "Magical Artifacts",
       "block.magical_artifacts.dunetite_ore": "Dunetite Ore",
       "item.magical_artifacts.dunetite": "Dunetite",
