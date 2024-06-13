@@ -22,7 +22,49 @@ authors="arrowplay, MCreator"
 
 
 [[dependencies.magical_artifacts]]
+    modId="pehkui"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.magical_artifacts]]
+    modId="framework"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.magical_artifacts]]
+    modId="use_compiled_mods"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.magical_artifacts]]
     modId="curios_api"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.magical_artifacts]]
+    modId="mousetweaks"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.magical_artifacts]]
+    modId="bookshelf"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.magical_artifacts]]
+    modId="jade"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.magical_artifacts]]
+    modId="patchouli"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"
@@ -35,12 +77,6 @@ authors="arrowplay, MCreator"
     side="BOTH"
 [[dependencies.magical_artifacts]]
     modId="playeranimator"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.magical_artifacts]]
-    modId="particlepresets"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"

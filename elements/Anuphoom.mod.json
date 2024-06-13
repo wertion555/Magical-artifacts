@@ -9,13 +9,13 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "anuphoom:default",
+    "customModelName": "anuphoomnr0:default",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
-    "particleTexture": "invisible",
+    "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
@@ -28,17 +28,26 @@
         "my": 0.0,
         "mz": 7.0,
         "Mx": 9.0,
-        "My": 5.0,
+        "My": 1.0,
         "Mz": 9.0,
         "subtract": false
       },
       {
-        "mx": 0.0,
-        "my": 7.0,
-        "mz": 0.0,
-        "Mx": 16.0,
-        "My": 14.0,
-        "Mz": 16.0,
+        "mx": 7.0,
+        "my": 1.0,
+        "mz": 7.0,
+        "Mx": 8.0,
+        "My": 3.0,
+        "Mz": 8.0,
+        "subtract": false
+      },
+      {
+        "mx": 8.0,
+        "my": 1.0,
+        "mz": 8.0,
+        "Mx": 9.0,
+        "My": 2.0,
+        "Mz": 9.0,
         "subtract": false
       }
     ],
@@ -46,8 +55,8 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 0.1,
-    "resistance": 0.0,
+    "hardness": 0.05,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -65,7 +74,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "PLANTS"
+      "value": "ROCK"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -88,26 +97,26 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
-    "isCustomSoundType": true,
+    "isCustomSoundType": false,
     "soundOnStep": {
       "value": "PLANT"
     },
     "breakSound": {
-      "value": "CUSTOM:anumhoom.destroy"
+      "value": ""
     },
     "fallSound": {
-      "value": "CUSTOM:anumhoom.place"
+      "value": ""
     },
     "hitSound": {
-      "value": "CUSTOM:anumhoom.destroy"
+      "value": ""
     },
     "placeSound": {
-      "value": "CUSTOM:anumhoom.place"
+      "value": ""
     },
     "stepSound": {
-      "value": "CUSTOM:anumhoom.step"
+      "value": ""
     },
-    "luminance": 10,
+    "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "isBonemealable": false,

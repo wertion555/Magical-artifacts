@@ -1,7 +1,7 @@
 {
   "subtitles.anumhoom.destroy": "anumhoom destroy",
-  "block.magical_artifacts.anuphoom": "Anuphoom",
   "key.magical_artifacts.spell_select": "spell select",
+  "block.magical_artifacts.anuphoom": "Anuphoom",
   "item_group.magical_artifacts.magical_artifacts": "Magical Artifacts",
   "block.magical_artifacts.dunetite_ore": "Dunetite Ore",
   "item.magical_artifacts.dunetite": "Dunetite",
@@ -9,12 +9,9 @@
   "gui.magical_artifacts.spell_select_interface.button_repulsion": "repulsion",
   "subtitles.anumhoom.place": "anumhoom place",
   "block.magical_artifacts.test": "Anuphoom",
-  "block.magical_artifacts.anuphoom_state_1": "Anuphoom",
   "subtitles.anumhoom.step": "anumhoom step",
-  "block.magical_artifacts.anuphoom_state_2": "Anuphoom",
   "key.categories.magical_artifacts": "magical artifacts",
   "item.magical_artifacts.magic_wand": "Magic Wand",
   "gui.magical_artifacts.spell_select_interface.button_levitation": "levitation",
-  "block.magical_artifacts.anuphoom_state_3": "Anuphoom",
   "gui.magical_artifacts.spell_select_interface.button_bambardo": "bambardo"
 }

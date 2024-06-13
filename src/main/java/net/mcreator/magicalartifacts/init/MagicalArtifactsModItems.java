@@ -24,9 +24,6 @@ public class MagicalArtifactsModItems {
 	public static final RegistryObject<Item> DUNETITE_BLOCK = block(MagicalArtifactsModBlocks.DUNETITE_BLOCK);
 	public static final RegistryObject<Item> TEST = block(MagicalArtifactsModBlocks.TEST);
 	public static final RegistryObject<Item> ANUPHOOM = block(MagicalArtifactsModBlocks.ANUPHOOM);
-	public static final RegistryObject<Item> ANUPHOOM_STATE_1 = block(MagicalArtifactsModBlocks.ANUPHOOM_STATE_1);
-	public static final RegistryObject<Item> ANUPHOOM_STATE_2 = block(MagicalArtifactsModBlocks.ANUPHOOM_STATE_2);
-	public static final RegistryObject<Item> ANUPHOOM_STATE_3 = block(MagicalArtifactsModBlocks.ANUPHOOM_STATE_3);
 
 	// Start of user code block custom items
 	// End of user code block custom items

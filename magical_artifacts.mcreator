@@ -3,7 +3,7 @@
     {
       "name": "MagicalArtifacts",
       "type": "tab",
-      "sortid": 2,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magical_artifacts",
@@ -14,7 +14,7 @@
     {
       "name": "MagicWandUse",
       "type": "procedure",
-      "sortid": 1,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magic_wand_use",
@@ -53,7 +53,7 @@
     {
       "name": "MagicWand",
       "type": "item",
-      "sortid": 3,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magic_wand",
@@ -67,7 +67,7 @@
     {
       "name": "SpellBomdardo",
       "type": "projectile",
-      "sortid": 8,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spell_bomdardo",
@@ -82,7 +82,7 @@
     {
       "name": "SpellBombardoTick",
       "type": "procedure",
-      "sortid": 10,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spell_bombardo_tick",
@@ -118,7 +118,7 @@
     {
       "name": "Dunetite",
       "type": "item",
-      "sortid": 12,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dunetite",
@@ -133,7 +133,7 @@
     {
       "name": "DunetiteOre",
       "type": "block",
-      "sortid": 13,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dunetite_ore",
@@ -154,7 +154,7 @@
     {
       "name": "DunetiteBlock",
       "type": "block",
-      "sortid": 14,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dunetite_block",
@@ -172,7 +172,7 @@
     {
       "name": "DunetiteOreBlockRecipe",
       "type": "recipe",
-      "sortid": 15,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dunetite_ore_block_recipe",
@@ -186,7 +186,7 @@
     {
       "name": "DunetiteBlockOreRecipe",
       "type": "recipe",
-      "sortid": 16,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dunetite_block_ore_recipe",
@@ -200,7 +200,7 @@
     {
       "name": "DunetiteOreSmelting",
       "type": "recipe",
-      "sortid": 17,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dunetite_ore_smelting",
@@ -214,7 +214,7 @@
     {
       "name": "SpellBambardoHitBlock",
       "type": "procedure",
-      "sortid": 23,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spell_bambardo_hit_block",
@@ -246,7 +246,7 @@
     {
       "name": "SpellBambardoHitEntity",
       "type": "procedure",
-      "sortid": 24,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spell_bambardo_hit_entity",
@@ -278,7 +278,7 @@
     {
       "name": "SpellRepulsionHitBlock",
       "type": "procedure",
-      "sortid": 26,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spell_repulsion_hit_block",
@@ -293,7 +293,7 @@
     {
       "name": "SpellRepulsion",
       "type": "projectile",
-      "sortid": 28,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spell_repulsion",
@@ -308,7 +308,7 @@
     {
       "name": "SpellRepulsionTick",
       "type": "procedure",
-      "sortid": 29,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spell_repulsion_tick",
@@ -344,7 +344,7 @@
     {
       "name": "Chat",
       "type": "procedure",
-      "sortid": 30,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chat",
@@ -367,7 +367,7 @@
     {
       "name": "SpellLevitationHitEntity",
       "type": "procedure",
-      "sortid": 31,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spell_levitation_hit_entity",
@@ -387,7 +387,7 @@
     {
       "name": "SpellLevitationTick",
       "type": "procedure",
-      "sortid": 32,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spell_levitation_tick",
@@ -423,7 +423,7 @@
     {
       "name": "SpellLevitation",
       "type": "projectile",
-      "sortid": 33,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spell_levitation",
@@ -438,7 +438,7 @@
     {
       "name": "SpellSelectPress",
       "type": "procedure",
-      "sortid": 34,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spell_select_press",
@@ -474,7 +474,7 @@
     {
       "name": "SpellSelectRelease",
       "type": "procedure",
-      "sortid": 35,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spell_select_release",
@@ -494,7 +494,7 @@
     {
       "name": "SpellSelect",
       "type": "keybind",
-      "sortid": 36,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spell_select",
@@ -508,7 +508,7 @@
     {
       "name": "BambardoBttn",
       "type": "procedure",
-      "sortid": 37,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bambardo_bttn",
@@ -528,7 +528,7 @@
     {
       "name": "LevitationBttn",
       "type": "procedure",
-      "sortid": 38,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "levitation_bttn",
@@ -548,7 +548,7 @@
     {
       "name": "RepulsionBttn",
       "type": "procedure",
-      "sortid": 39,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "repulsion_bttn",
@@ -568,7 +568,7 @@
     {
       "name": "SpellSelectInterface",
       "type": "gui",
-      "sortid": 40,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spell_select_interface",
@@ -584,7 +584,7 @@
     {
       "name": "Test",
       "type": "plant",
-      "sortid": 41,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "test",
@@ -605,9 +605,9 @@
     {
       "name": "Anuphoom",
       "type": "block",
-      "sortid": 42,
+      "sortid": 33,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "anuphoom",
       "metadata": {
         "files": [
@@ -621,55 +621,17 @@
       "path": "~/plants/anuphoom"
     },
     {
-      "name": "AnuphoomState1",
-      "type": "block",
-      "sortid": 44,
+      "name": "Anuphoomstates",
+      "type": "blockstates",
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "anuphoom_state_1",
+      "registry_name": "anuphoomstates",
       "metadata": {
         "files": [
-          "src/main/resources/data/magical_artifacts/loot_tables/blocks/anuphoom_state_1.json",
-          "src/main/resources/assets/magical_artifacts/models/item/anuphoom_state_1.json",
-          "src/main/resources/assets/magical_artifacts/blockstates/anuphoom_state_1.json",
-          "src/main/java/net/mcreator/magicalartifacts/block/AnuphoomState1Block.java",
-          "src/main/resources/assets/magical_artifacts/models/block/anuphoom_state_1.json"
-        ]
-      },
-      "path": "~/plants/anuphoom"
-    },
-    {
-      "name": "AnuphoomState2",
-      "type": "block",
-      "sortid": 45,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "anuphoom_state_2",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/magicalartifacts/block/AnuphoomState2Block.java",
-          "src/main/resources/assets/magical_artifacts/models/item/anuphoom_state_2.json",
-          "src/main/resources/assets/magical_artifacts/blockstates/anuphoom_state_2.json",
-          "src/main/resources/data/magical_artifacts/loot_tables/blocks/anuphoom_state_2.json",
-          "src/main/resources/assets/magical_artifacts/models/block/anuphoom_state_2.json"
-        ]
-      },
-      "path": "~/plants/anuphoom"
-    },
-    {
-      "name": "AnuphoomState3",
-      "type": "block",
-      "sortid": 46,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "anuphoom_state_3",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/magicalartifacts/block/AnuphoomState3Block.java",
-          "src/main/resources/assets/magical_artifacts/models/item/anuphoom_state_3.json",
-          "src/main/resources/assets/magical_artifacts/models/block/anuphoom_state_3.json",
-          "src/main/resources/assets/magical_artifacts/blockstates/anuphoom_state_3.json",
-          "src/main/resources/data/magical_artifacts/loot_tables/blocks/anuphoom_state_3.json"
+          "src/main/resources/assets/magical_artifacts/models/block/anuphoomstates_blockstate_2.json",
+          "src/main/resources/assets/magical_artifacts/models/block/anuphoomstates_blockstate_1.json",
+          "src/main/resources/assets/magical_artifacts/models/block/anuphoomstates_blockstate_0.json"
         ]
       },
       "path": "~/plants/anuphoom"
@@ -722,8 +684,8 @@
   "language_map": {
     "ru_ru": {
       "subtitles.anumhoom.destroy": "anumhoom destroy",
-      "block.magical_artifacts.anuphoom": "Anuphoom",
       "key.magical_artifacts.spell_select": "выбор заклинания",
+      "block.magical_artifacts.anuphoom": "Anuphoom",
       "item_group.magical_artifacts.magical_artifacts": "Magical artifacts",
       "block.magical_artifacts.dunetite_ore": "дунетитовая руда",
       "item.magical_artifacts.dunetite": "дунетит",
@@ -731,19 +693,16 @@
       "gui.magical_artifacts.spell_select_interface.button_repulsion": "repulsion",
       "subtitles.anumhoom.place": "anumhoom place",
       "block.magical_artifacts.test": "Anuphoom",
-      "block.magical_artifacts.anuphoom_state_1": "Anuphoom",
       "subtitles.anumhoom.step": "anumhoom step",
-      "block.magical_artifacts.anuphoom_state_2": "Anuphoom",
       "key.categories.magical_artifacts": "magical artifacts",
       "item.magical_artifacts.magic_wand": "волшебная палочка",
       "gui.magical_artifacts.spell_select_interface.button_levitation": "levitation",
-      "block.magical_artifacts.anuphoom_state_3": "Anuphoom",
       "gui.magical_artifacts.spell_select_interface.button_bambardo": "bambardo"
     },
     "en_us": {
       "subtitles.anumhoom.destroy": "anumhoom destroy",
-      "block.magical_artifacts.anuphoom": "Anuphoom",
       "key.magical_artifacts.spell_select": "spell select",
+      "block.magical_artifacts.anuphoom": "Anuphoom",
       "item_group.magical_artifacts.magical_artifacts": "Magical Artifacts",
       "block.magical_artifacts.dunetite_ore": "Dunetite Ore",
       "item.magical_artifacts.dunetite": "Dunetite",
@@ -751,13 +710,10 @@
       "gui.magical_artifacts.spell_select_interface.button_repulsion": "repulsion",
       "subtitles.anumhoom.place": "anumhoom place",
       "block.magical_artifacts.test": "Anuphoom",
-      "block.magical_artifacts.anuphoom_state_1": "Anuphoom",
       "subtitles.anumhoom.step": "anumhoom step",
-      "block.magical_artifacts.anuphoom_state_2": "Anuphoom",
       "key.categories.magical_artifacts": "magical artifacts",
       "item.magical_artifacts.magic_wand": "Magic Wand",
       "gui.magical_artifacts.spell_select_interface.button_levitation": "levitation",
-      "block.magical_artifacts.anuphoom_state_3": "Anuphoom",
       "gui.magical_artifacts.spell_select_interface.button_bambardo": "bambardo"
     }
   },
@@ -817,10 +773,16 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
+      "pehkui",
+      "framework",
+      "use_compiled_mods",
       "curios_api",
+      "mousetweaks",
+      "bookshelf",
+      "jade",
+      "patchouli",
       "geckolib",
       "playeranimator",
-      "particlepresets",
       "jei"
     ],
     "currentGenerator": "forge-1.20.1",
