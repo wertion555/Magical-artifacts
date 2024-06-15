@@ -1,9 +1,0 @@
-{
-  "parent": "magical_artifacts:custom/anuphoom",
-  "textures": {
-    "all": "magical_artifacts:block/plants",
-    "particle": "magical_artifacts:block/invisible",
-    "0": "magical_artifacts:block/anuphoom"
-  },
-  "render_type": "cutout"
-}

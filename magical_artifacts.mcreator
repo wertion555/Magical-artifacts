@@ -582,27 +582,6 @@
       "path": "~/SpellSelect"
     },
     {
-      "name": "Test",
-      "type": "plant",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/magical_artifacts/blockstates/test.json",
-          "src/main/resources/data/magical_artifacts/loot_tables/blocks/test.json",
-          "src/main/resources/data/magical_artifacts/worldgen/configured_feature/test.json",
-          "src/main/resources/data/magical_artifacts/forge/biome_modifier/test_biome_modifier.json",
-          "src/main/java/net/mcreator/magicalartifacts/block/TestBlock.java",
-          "src/main/resources/assets/magical_artifacts/models/block/test.json",
-          "src/main/resources/data/magical_artifacts/worldgen/placed_feature/test.json",
-          "src/main/resources/assets/magical_artifacts/models/item/test.json"
-        ]
-      },
-      "path": "~/plants/anuphoom"
-    },
-    {
       "name": "Anuphoom",
       "type": "block",
       "sortid": 33,
@@ -692,7 +671,6 @@
       "block.magical_artifacts.dunetite_block": "блок дунетита",
       "gui.magical_artifacts.spell_select_interface.button_repulsion": "repulsion",
       "subtitles.anumhoom.place": "anumhoom place",
-      "block.magical_artifacts.test": "Anuphoom",
       "subtitles.anumhoom.step": "anumhoom step",
       "key.categories.magical_artifacts": "magical artifacts",
       "item.magical_artifacts.magic_wand": "волшебная палочка",
@@ -709,7 +687,6 @@
       "block.magical_artifacts.dunetite_block": "Block of Dunetite",
       "gui.magical_artifacts.spell_select_interface.button_repulsion": "repulsion",
       "subtitles.anumhoom.place": "anumhoom place",
-      "block.magical_artifacts.test": "Anuphoom",
       "subtitles.anumhoom.step": "anumhoom step",
       "key.categories.magical_artifacts": "magical artifacts",
       "item.magical_artifacts.magic_wand": "Magic Wand",
