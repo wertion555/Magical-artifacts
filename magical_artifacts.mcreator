@@ -618,6 +618,7 @@
     {
       "name": "AnuphoomPlants",
       "type": "code",
+      "sortid": 35,
       "compiles": true,
       "locked_code": true,
       "registry_name": "anuphoom_plants",

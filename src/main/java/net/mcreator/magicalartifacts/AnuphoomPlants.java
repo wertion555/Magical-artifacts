@@ -26,23 +26,37 @@ import net.minecraftforge.api.distmarker.Dist;
 public class AnuphoomPlants extends Block{
 	public static final IntegerProperty AGE = IntegerProperty.create("age", 0, 3);
 	public AnuphoomPlants() {
-		
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInsrument.BASEDRUM).sound(SoundType.GRASS).strength(0.05f, 1f).lightLevel(
+				s -> (new Object() {public int getLightLevel(){
+					return 5;
+				}}.getLightLevel())
+		).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
-	@SubscribeEvent
-	public static void init(FMLCommonSetupEvent event) {
-		new AnuphoomPlants();
+	@Override
+	public boolean propagatesSkylightDown(BlockState state, BlockGetter reader, BlockPos pos) {
+		return true;
 	}
 
-	@Mod.EventBusSubscriber
-	private static class ForgeBusEvents {
-		@SubscribeEvent
-		public static void serverLoad(ServerStartingEvent event) {
-		}
-
-		@OnlyIn(Dist.CLIENT)
-		@SubscribeEvent
-		public static void clientLoad(FMLClientSetupEvent event) {
-		}
+	@Override
+	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
+		return 0;
 	}
+
+	@Override
+	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return Shapes.empty();
+	}
+
+	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return Shapes.or(box(7, 0, 7, 9, 1, 9), box(7, 1, 7, 8, 3, 8), box(8, 1, 8, 9, 2, 9));
+	}
+
+	@Override
+	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
+		builder.add(AGE);
+	}
+
+}
 }
