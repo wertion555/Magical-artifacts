@@ -614,6 +614,19 @@
         ]
       },
       "path": "~/plants/anuphoom"
+    },
+    {
+      "name": "AnuphoomPlants",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "anuphoom_plants",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalartifacts/AnuphoomPlants.java"
+        ]
+      },
+      "path": "~/plants/anuphoom"
     }
   ],
   "variable_elements": [
