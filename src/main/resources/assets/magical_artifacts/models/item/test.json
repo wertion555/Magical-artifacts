@@ -1,5 +1,5 @@
 {
-  "parent": "magical_artifacts:block/anuphoom",
+  "parent": "magical_artifacts:block/test",
   "display": {
     "thirdperson": {
       "rotation": [

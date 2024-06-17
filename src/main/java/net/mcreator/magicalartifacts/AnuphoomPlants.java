@@ -14,26 +14,31 @@
 */
 package net.mcreator.magicalartifacts;
 
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.server.ServerStartingEvent;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
+import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.world.phys.shapes.Shapes;
+import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.block.state.properties.IntegerProperty;
+import net.minecraft.world.level.block.state.StateDefinition;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.core.BlockPos;
+
+
 public class AnuphoomPlants extends Block{
 	public static final IntegerProperty AGE = IntegerProperty.create("age", 0, 3);
 	public AnuphoomPlants() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInsrument.BASEDRUM).sound(SoundType.GRASS).strength(0.05f, 1f).lightLevel(
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRASS).strength(0.05f, 1f).lightLevel(
 				s -> (new Object() {public int getLightLevel(){
 					return 5;
 				}}.getLightLevel())
 		).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
-
-	@Override
+	@Override
 	public boolean propagatesSkylightDown(BlockState state, BlockGetter reader, BlockPos pos) {
 		return true;
 	}
@@ -58,5 +63,4 @@ public class AnuphoomPlants extends Block{
 		builder.add(AGE);
 	}
 
-}
 }

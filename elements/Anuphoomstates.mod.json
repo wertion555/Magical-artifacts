@@ -2,7 +2,7 @@
   "_fv": 60,
   "_type": "blockstates",
   "definition": {
-    "block": "Anuphoom",
+    "block": "Test",
     "blockstateList": [
       {
         "texture": "plants",

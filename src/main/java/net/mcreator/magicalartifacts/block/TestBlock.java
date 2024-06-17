@@ -16,10 +16,10 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.core.BlockPos;
 
-public class AnuphoomBlock extends Block {
-	public static final IntegerProperty BLOCKSTATE = IntegerProperty.create("age", 0, 3);
+public class TestBlock extends Block {
+	public static final IntegerProperty BLOCKSTATE = IntegerProperty.create("blockstate", 0, 3);
 
-	public AnuphoomBlock() {
+	public TestBlock() {
 		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRASS).strength(0.05f, 10f).lightLevel(s -> (new Object() {
 			public int getLightLevel() {
 				if (s.getValue(BLOCKSTATE) == 1)
@@ -50,6 +50,17 @@ public class AnuphoomBlock extends Block {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		if (state.getValue(BLOCKSTATE) == 1) {
+			return box(0, 0, 0, 16, 16, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 2) {
+			return box(0, 0, 0, 16, 16, 16);
+		}
+		if (state.getValue(BLOCKSTATE) == 3) {
+			return Shapes.or(box(7, 0, 7, 9, 7, 9), box(5, 2, 6, 7, 8, 8), box(4, 5, 5, 6, 11, 7), box(8, 4, 6, 10, 8, 8), box(6, 6, 10, 8, 10, 12), box(9, 6, 10, 11, 10, 12), box(10, 7, 11, 12, 12, 13), box(5, 7, 11, 7, 11, 13),
+					box(7, 3, 9, 9, 9, 11), box(9, 5, 5, 11, 9, 7), box(10, 6, 4, 12, 13, 6), box(3, 6, 2, 13, 14, 3), box(3, 6, 14, 13, 14, 15), box(2, 6, 3, 3, 14, 14), box(13, 6, 3, 14, 14, 14), box(3, 14, 3, 13, 15, 14), box(7, 17, 8, 9, 19, 10),
+					box(9, 15, 6, 11, 18, 8), box(9, 15, 10, 11, 18, 12), box(5, 15, 6, 7, 18, 8), box(5, 15, 10, 7, 18, 12));
+		}
 		return Shapes.or(box(7, 0, 7, 9, 1, 9), box(7, 1, 7, 8, 3, 8), box(8, 1, 8, 9, 2, 9));
 	}
 

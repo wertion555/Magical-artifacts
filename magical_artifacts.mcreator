@@ -582,24 +582,6 @@
       "path": "~/SpellSelect"
     },
     {
-      "name": "Anuphoom",
-      "type": "block",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "anuphoom",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/magical_artifacts/models/item/anuphoom.json",
-          "src/main/java/net/mcreator/magicalartifacts/block/AnuphoomBlock.java",
-          "src/main/resources/assets/magical_artifacts/blockstates/anuphoom.json",
-          "src/main/resources/data/magical_artifacts/loot_tables/blocks/anuphoom.json",
-          "src/main/resources/assets/magical_artifacts/models/block/anuphoom.json"
-        ]
-      },
-      "path": "~/plants/anuphoom"
-    },
-    {
       "name": "Anuphoomstates",
       "type": "blockstates",
       "sortid": 34,
@@ -625,6 +607,24 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/magicalartifacts/AnuphoomPlants.java"
+        ]
+      },
+      "path": "~/plants/anuphoom"
+    },
+    {
+      "name": "Test",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magical_artifacts/blockstates/test.json",
+          "src/main/resources/data/magical_artifacts/loot_tables/blocks/test.json",
+          "src/main/java/net/mcreator/magicalartifacts/block/TestBlock.java",
+          "src/main/resources/assets/magical_artifacts/models/block/test.json",
+          "src/main/resources/assets/magical_artifacts/models/item/test.json"
         ]
       },
       "path": "~/plants/anuphoom"
@@ -678,13 +678,13 @@
     "ru_ru": {
       "subtitles.anumhoom.destroy": "anumhoom destroy",
       "key.magical_artifacts.spell_select": "выбор заклинания",
-      "block.magical_artifacts.anuphoom": "Anuphoom",
       "item_group.magical_artifacts.magical_artifacts": "Magical artifacts",
       "block.magical_artifacts.dunetite_ore": "дунетитовая руда",
       "item.magical_artifacts.dunetite": "дунетит",
       "block.magical_artifacts.dunetite_block": "блок дунетита",
       "gui.magical_artifacts.spell_select_interface.button_repulsion": "repulsion",
       "subtitles.anumhoom.place": "anumhoom place",
+      "block.magical_artifacts.test": "Anuphoom",
       "subtitles.anumhoom.step": "anumhoom step",
       "key.categories.magical_artifacts": "magical artifacts",
       "item.magical_artifacts.magic_wand": "волшебная палочка",
@@ -694,13 +694,13 @@
     "en_us": {
       "subtitles.anumhoom.destroy": "anumhoom destroy",
       "key.magical_artifacts.spell_select": "spell select",
-      "block.magical_artifacts.anuphoom": "Anuphoom",
       "item_group.magical_artifacts.magical_artifacts": "Magical Artifacts",
       "block.magical_artifacts.dunetite_ore": "Dunetite Ore",
       "item.magical_artifacts.dunetite": "Dunetite",
       "block.magical_artifacts.dunetite_block": "Block of Dunetite",
       "gui.magical_artifacts.spell_select_interface.button_repulsion": "repulsion",
       "subtitles.anumhoom.place": "anumhoom place",
+      "block.magical_artifacts.test": "Anuphoom",
       "subtitles.anumhoom.step": "anumhoom step",
       "key.categories.magical_artifacts": "magical artifacts",
       "item.magical_artifacts.magic_wand": "Magic Wand",
