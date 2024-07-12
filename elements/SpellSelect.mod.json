@@ -7,9 +7,6 @@
     "keyBindingCategoryKey": "magical_artifacts",
     "onKeyPressed": {
       "name": "SpellSelectPress"
-    },
-    "onKeyReleased": {
-      "name": "SpellSelectRelease"
     }
   }
 }

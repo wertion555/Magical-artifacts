@@ -10,7 +10,6 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.magicalartifacts.procedures.SpellSelectReleaseProcedure;
 import net.mcreator.magicalartifacts.procedures.SpellSelectPressProcedure;
 import net.mcreator.magicalartifacts.MagicalArtifactsMod;
 
@@ -54,10 +53,6 @@ public class SpellSelectMessage {
 		if (type == 0) {
 
 			SpellSelectPressProcedure.execute(world, x, y, z, entity);
-		}
-		if (type == 1) {
-
-			SpellSelectReleaseProcedure.execute(entity);
 		}
 	}
 

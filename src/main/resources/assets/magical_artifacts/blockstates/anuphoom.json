@@ -1,15 +1,15 @@
 {
   "variants": {
-    "blockstate=0": {
-      "model": "magical_artifacts:block/test"
+    "age=0": {
+      "model": "magical_artifacts:block/anuphoom"
     },
-    "blockstate=1": {
+    "age=1": {
       "model": "magical_artifacts:block/anuphoomstates_blockstate_0"
     },
-    "blockstate=2": {
+    "age=2": {
       "model": "magical_artifacts:block/anuphoomstates_blockstate_1"
     },
-    "blockstate=3": {
+    "age=3": {
       "model": "magical_artifacts:block/anuphoomstates_blockstate_2"
     }
   }

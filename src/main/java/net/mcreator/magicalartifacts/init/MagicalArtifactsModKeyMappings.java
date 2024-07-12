@@ -29,16 +29,10 @@ public class MagicalArtifactsModKeyMappings {
 			if (isDownOld != isDown && isDown) {
 				MagicalArtifactsMod.PACKET_HANDLER.sendToServer(new SpellSelectMessage(0, 0));
 				SpellSelectMessage.pressAction(Minecraft.getInstance().player, 0, 0);
-				SPELL_SELECT_LASTPRESS = System.currentTimeMillis();
-			} else if (isDownOld != isDown && !isDown) {
-				int dt = (int) (System.currentTimeMillis() - SPELL_SELECT_LASTPRESS);
-				MagicalArtifactsMod.PACKET_HANDLER.sendToServer(new SpellSelectMessage(1, dt));
-				SpellSelectMessage.pressAction(Minecraft.getInstance().player, 1, dt);
 			}
 			isDownOld = isDown;
 		}
 	};
-	private static long SPELL_SELECT_LASTPRESS = 0;
 
 	@SubscribeEvent
 	public static void registerKeyMappings(RegisterKeyMappingsEvent event) {

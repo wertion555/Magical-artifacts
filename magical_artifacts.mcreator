@@ -472,26 +472,6 @@
       "path": "~/SpellSelect"
     },
     {
-      "name": "SpellSelectRelease",
-      "type": "procedure",
-      "sortid": 27,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "spell_select_release",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/magicalartifacts/procedures/SpellSelectReleaseProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/SpellSelect"
-    },
-    {
       "name": "SpellSelect",
       "type": "keybind",
       "sortid": 28,
@@ -586,7 +566,7 @@
       "type": "blockstates",
       "sortid": 34,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "anuphoomstates",
       "metadata": {
         "files": [
@@ -598,33 +578,98 @@
       "path": "~/plants/anuphoom"
     },
     {
-      "name": "AnuphoomPlants",
-      "type": "code",
-      "sortid": 35,
+      "name": "Anuphoom",
+      "type": "block",
+      "sortid": 37,
       "compiles": true,
       "locked_code": true,
-      "registry_name": "anuphoom_plants",
+      "registry_name": "anuphoom",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/magicalartifacts/AnuphoomPlants.java"
+          "src/main/resources/assets/magical_artifacts/models/item/anuphoom.json",
+          "src/main/java/net/mcreator/magicalartifacts/block/AnuphoomBlock.java",
+          "src/main/resources/assets/magical_artifacts/blockstates/anuphoom.json",
+          "src/main/resources/data/magical_artifacts/loot_tables/blocks/anuphoom.json",
+          "src/main/resources/assets/magical_artifacts/models/block/anuphoom.json"
         ]
       },
       "path": "~/plants/anuphoom"
     },
     {
-      "name": "Test",
-      "type": "block",
-      "sortid": 36,
+      "name": "AnuphoomUpdate",
+      "type": "procedure",
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "test",
+      "registry_name": "anuphoom_update",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magical_artifacts/blockstates/test.json",
-          "src/main/resources/data/magical_artifacts/loot_tables/blocks/test.json",
-          "src/main/java/net/mcreator/magicalartifacts/block/TestBlock.java",
-          "src/main/resources/assets/magical_artifacts/models/block/test.json",
-          "src/main/resources/assets/magical_artifacts/models/item/test.json"
+          "src/main/java/net/mcreator/magicalartifacts/procedures/AnuphoomUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/plants/anuphoom"
+    },
+    {
+      "name": "AnuphoomRC",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anuphoom_rc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalartifacts/procedures/AnuphoomRCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/plants/anuphoom"
+    },
+    {
+      "name": "AnuphoomCristal",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anuphoom_cristal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magicalartifacts/item/AnuphoomCristalItem.java",
+          "src/main/resources/assets/magical_artifacts/models/item/anuphoom_cristal.json"
         ]
       },
       "path": "~/plants/anuphoom"
@@ -678,13 +723,14 @@
     "ru_ru": {
       "subtitles.anumhoom.destroy": "anumhoom destroy",
       "key.magical_artifacts.spell_select": "выбор заклинания",
+      "block.magical_artifacts.anuphoom": "Anuphoom",
       "item_group.magical_artifacts.magical_artifacts": "Magical artifacts",
       "block.magical_artifacts.dunetite_ore": "дунетитовая руда",
+      "item.magical_artifacts.anuphoom_cristal": "Anuphoom Cristal",
       "item.magical_artifacts.dunetite": "дунетит",
       "block.magical_artifacts.dunetite_block": "блок дунетита",
       "gui.magical_artifacts.spell_select_interface.button_repulsion": "repulsion",
       "subtitles.anumhoom.place": "anumhoom place",
-      "block.magical_artifacts.test": "Anuphoom",
       "subtitles.anumhoom.step": "anumhoom step",
       "key.categories.magical_artifacts": "magical artifacts",
       "item.magical_artifacts.magic_wand": "волшебная палочка",
@@ -694,13 +740,14 @@
     "en_us": {
       "subtitles.anumhoom.destroy": "anumhoom destroy",
       "key.magical_artifacts.spell_select": "spell select",
+      "block.magical_artifacts.anuphoom": "Anuphoom",
       "item_group.magical_artifacts.magical_artifacts": "Magical Artifacts",
       "block.magical_artifacts.dunetite_ore": "Dunetite Ore",
+      "item.magical_artifacts.anuphoom_cristal": "Anuphoom Cristal",
       "item.magical_artifacts.dunetite": "Dunetite",
       "block.magical_artifacts.dunetite_block": "Block of Dunetite",
       "gui.magical_artifacts.spell_select_interface.button_repulsion": "repulsion",
       "subtitles.anumhoom.place": "anumhoom place",
-      "block.magical_artifacts.test": "Anuphoom",
       "subtitles.anumhoom.step": "anumhoom step",
       "key.categories.magical_artifacts": "magical artifacts",
       "item.magical_artifacts.magic_wand": "Magic Wand",
